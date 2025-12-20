@@ -18,8 +18,7 @@
 > 
 > Collecting these implications yields equivalence of the four statements.
 ### Relations
-- [[content/theorems, lemma/theorem - 2-connected via internally disjoint paths.md]] — Item (2) is the same statement as that theorem.
-- [[content/theorems, lemma/prop - cycle-edge equivalences.md]] — Supports the (3)⇔(4) style implications (create/consult proposition file if more details are required).
-- [[content/theorems, lemma/theorem - Menger / Menger-type equivalences.md]] — Strengthened k‑connectivity statements generalize these equivalences.
+- [[theorem - 2-connected via internally disjoint paths]] — Item (2) is the same statement as that theorem.
+- [[prop - cycle-edge equivalences]] — Supports the (3)⇔(4) style implications (create/consult proposition file if more details are required).
+- [[ Menger-type equivalences]] — Strengthened k‑connectivity statements generalize these equivalences.
 
-Source: Notes by date/10-31-25.md

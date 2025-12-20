@@ -23,5 +23,5 @@
 > - Part (i) shows the threshold $\delta(G)\ge n/2$ in Dirac's theorem is essentially tight: lowering the minimum degree by $1$ can destroy Hamiltonicity.
 > - Part (ii) is a standard Dirac‑based argument: remove one endpoint and use Dirac on the remainder to produce a Hamiltonian cycle, then splice the removed vertex back to create a Hamiltonian path between prescribed vertices.
 ### Relations
-- Dirac's theorem: [[content/theorems, lemma/theorem - dirac (hamiltonian).md]].
-- Path and cycle definitions: [[content/graph structure/path.md]], [[content/graph structure/walk, trail, path, cycle.md]]
+- Dirac's theorem: [[theorem - dirac (hamiltonian)]].
+- Path and cycle definitions: [[path]], [[walk, trail, path, cycle]]

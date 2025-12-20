@@ -15,8 +15,7 @@
 > $$
 > so rearranging gives $o(G-S)-|S|\equiv n\pmod{2}$, as claimed.
 ### Relations
-- [[content/foundational/odd components.md]] — Uses the notation $o(\cdot)$ and is a direct parity property of component counts.
-- [[content/theorems, lemma/theorem - Tutte's theorem.md]] — Parity lemma is used in arguments within the proof of Tutte's theorem (e.g. when adding vertices to adjust parity).
-- [[content/foundational/order, size.md]] — Relates parity of vertex counts to order/size considerations.
+- [[odd components]] — Uses the notation $o(\cdot)$ and is a direct parity property of component counts.
+- [[theorem - Tutte's theorem]] — Parity lemma is used in arguments within the proof of Tutte's theorem (e.g. when adding vertices to adjust parity).
+- [[order, size]] — Relates parity of vertex counts to order/size considerations.
 
-Source: Notes by date/10-17-25.md

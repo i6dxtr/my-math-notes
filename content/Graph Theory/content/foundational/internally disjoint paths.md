@@ -11,8 +11,7 @@
 - The notion generalizes to $k$ pairwise internally disjoint $u,v$‑paths.
 
 ### Relations
-- [[content/theorems, lemma/theorem - 2-connected via internally disjoint paths.md]] — Characterizes 2‑connectivity in terms of the existence of two internally disjoint $u,v$‑paths for every distinct $u,v$.
-- [[content/foundational/path.md]] — Definition of paths and related terminology.
-- [[content/theorems, lemma/theorem - Menger / Menger-type equivalences.md]] — Internally disjoint paths appear in Menger‑style statements relating connectivity and disjoint paths.
+- [[theorem - 2-connected via internally disjoint paths]] — Characterizes 2‑connectivity in terms of the existence of two internally disjoint $u,v$‑paths for every distinct $u,v$.
+- [[path]] — Definition of paths and related terminology.
+- [[ Menger-type equivalences]] — Internally disjoint paths appear in Menger‑style statements relating connectivity and disjoint paths.
 
-Source: Notes by date/10-29-25.md

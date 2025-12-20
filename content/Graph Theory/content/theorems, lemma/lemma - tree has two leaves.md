@@ -7,6 +7,6 @@
 > 
 > If we delete a leaf $v$ from $T$ then removing $v$ (and its incident edge) cannot create a cycle and cannot disconnect any remaining vertices that were previously connected by paths not using $v$. Therefore $T-v$ is acyclic and, since $T$ was connected, $T-v$ remains connected on $n-1$ vertices; hence $T-v$ is a tree.
 ### Relations
-- Definition and examples of trees: [[content/foundational/tree.md]]
-- Maximal vs maximum path discussion: [[content/theorems, lemma/proposition - maximal paths & cycles.md]]
-- Paths and walk containment lemma: [[content/graph structure/walk, trail, path, cycle.md]]
+- Definition and examples of trees: [[tree]]
+- Maximal vs maximum path discussion: [[proposition - maximal paths & cycles]]
+- Paths and walk containment lemma: [[walk, trail, path, cycle]]

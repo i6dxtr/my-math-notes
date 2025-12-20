@@ -15,9 +15,9 @@
 > (2) The statement is false for merely maximal paths. "Maximal" (by inclusion) means a path cannot be extended at either endpoint inside $G$, but two distinct maximal paths can be vertex‑disjoint. A simple construction: take two disjoint paths and join an endpoint of one to an endpoint of the other by a single edge so that each original path becomes maximal in the new graph but they remain vertex‑disjoint (see lecture notes for a concrete 6‑vertex example). Thus maximum (longest) paths must intersect in a connected graph, but maximal paths need not.
 ### Remarks
 - The proof of (1) is a standard application of taking a shortest connector between two disjoint structures and concatenating to exceed maximal length.
-- Maximal paths are useful in many structural arguments (see [[content/theorems, lemma/proposition - maximal paths & cycles.md]]), but they do not enjoy the same global-length properties as maximum paths.
+- Maximal paths are useful in many structural arguments (see [[proposition - maximal paths & cycles]]), but they do not enjoy the same global-length properties as maximum paths.
 
 ### Relations
-- Shortest-walk → path reduction: [[content/theorems, lemma/lemma - walk contains path.md]].
-- Maximal-path techniques: [[content/theorems, lemma/proposition - maximal paths & cycles.md]].
-- Path definitions and properties: [[content/graph structure/path.md]], [[content/graph structure/walk, trail, path, cycle.md]].
+- Shortest-walk → path reduction: [[lemma - walk contains path]].
+- Maximal-path techniques: [[proposition - maximal paths & cycles]].
+- Path definitions and properties: [[path]], [[walk, trail, path, cycle]].

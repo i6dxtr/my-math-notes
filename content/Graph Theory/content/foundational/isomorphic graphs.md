@@ -9,8 +9,8 @@
 > Isomorphism is the standard notion of equality for graphs: two graphs that are isomorphic are indistinguishable by properties depending only on adjacency (degree sequence, connectivity, presence of cycles, etc.), though vertex labels may differ.
 
 ### Relations
-- Base definition: [[content/foundational/graph.md|graph]] — isomorphism compares graphs at the level of vertex/edge sets.
-- Substructures: [[content/graph structure/(induced) subgraphs.md|subgraphs and induced subgraphs]] — isomorphism often used to compare subgraphs.
-- Components & connectivity: [[content/foundational/components (graph).md|components (graph)]] and [[content/graph structure/connectedness.md|connectedness]] — isomorphism preserves component structure.
-- Examples and uses: compare with [[content/foundational/graph complement.md|graph complement]] (complements of isomorphic graphs are isomorphic), and with canonical families like complete graphs $K_n$, cycles $C_k$, and paths $P_k$.
-- See also: [[content/foundational/order, size.md|order & size]] (isomorphic graphs have same order and size), [[content/foundational/degree.md|degree]] (degree sequences are preserved under isomorphism).
+- Base definition: [[graph|graph]] — isomorphism compares graphs at the level of vertex/edge sets.
+- Substructures: [[(induced) subgraphs|subgraphs and induced subgraphs]] — isomorphism often used to compare subgraphs.
+- Components & connectivity: [[components (graph)|components (graph)]] and [[connectedness|connectedness]] — isomorphism preserves component structure.
+- Examples and uses: compare with [[graph complement|graph complement]] (complements of isomorphic graphs are isomorphic), and with canonical families like complete graphs $K_n$, cycles $C_k$, and paths $P_k$.
+- See also: [[order, size|order & size]] (isomorphic graphs have same order and size), [[degree|degree]] (degree sequences are preserved under isomorphism).

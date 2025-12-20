@@ -9,6 +9,6 @@
 > 
 > 
 > Relations
-> - [[content/foundational/separating set, connectivity.md]]
-> - [[content/foundational/degree.md]]
-> - [[content/theorems, lemma/lemma - connectivity equivalence relation.md]]
+> - [[separating set, connectivity]]
+> - [[degree]]
+> - [[lemma - connectivity equivalence relation]]

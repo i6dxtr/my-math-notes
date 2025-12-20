@@ -31,8 +31,7 @@
 - In a $k$‑connected graph, for any vertex $x$ and any $Y\subseteq V(G)\setminus\{x\}$ with $|Y|\ge k$, there exists an $x$‑$Y$ fan of size $k$ (this is one of the equivalent formulations of connectivity used in lecture notes).
 
 ### Relations
-- [[content/theorems, lemma/theorem - Menger / Menger-type equivalences.md]] — Fans are used in one of the equivalent statements in Menger/Mängel theorems.
-- [[content/theorems, lemma/theorem - 2-connected via internally disjoint paths.md]] — The fan notion generalizes the two internally disjoint paths condition to a rooted setting.
-- [[content/foundational/internally disjoint paths.md]] — Internal disjointness is the key constraint in fan definitions.
+- [[ Menger-type equivalences]] — Fans are used in one of the equivalent statements in Menger/Mängel theorems.
+- [[theorem - 2-connected via internally disjoint paths]] — The fan notion generalizes the two internally disjoint paths condition to a rooted setting.
+- [[internally disjoint paths]] — Internal disjointness is the key constraint in fan definitions.
 
-Source: Notes by date/11-3-25.md

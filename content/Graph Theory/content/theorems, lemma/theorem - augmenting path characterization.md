@@ -11,6 +11,6 @@
 > 
 > $(\Leftarrow)$ Suppose $M$ is not maximum. Let $M'$ be a maximum matching and set $F = M\triangle M'$. By Lemma 3.1.9 every component of $F$ is either a path or an even cycle. If every component had at least as many edges of $M$ as $M'$, then $|M'|\le|M|$, contradicting maximality of $M'$. Hence some component is a path with more edges from $M'$ than from $M$, and that path is an $M$‑augmenting path.
 ### Relations
-- Relies on structural Lemma 3.1.9: [[content/theorems, lemma/lemma - symmetric difference of matchings (Lemma 3.1.9).md|Lemma 3.1.9]].
-- Uses definitions in [[content/foundational/matching.md|matching]] and [[content/foundational/M-alternating path, M-augmenting path.md|M‑alternating / M‑augmenting path]].
+- Relies on structural Lemma 3.1.9: [[lemma - symmetric difference of matchings (Lemma 3.1.9)|Lemma 3.1.9]].
+- Uses definitions in [[matching|matching]] and [[M-alternating path, M-augmenting path|M‑alternating / M‑augmenting path]].
 - Connects to matching algorithms and Hall's theorem for bipartite matchings.

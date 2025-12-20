@@ -25,6 +25,6 @@
 > 
 > This completes the equivalences.
 ### Relations
-- Core definition and examples of trees: [[content/foundational/tree.md]]
-- Components and the equivalence-of-connectedness lemma: [[content/graph structure/connectedness.md]], [[content/theorems, lemma/lemma - connectivity equivalence relation.md]]
-- Paths and uniqueness arguments: [[content/graph structure/walk, trail, path, cycle.md]], [[content/graph structure/path.md]]
+- Core definition and examples of trees: [[tree]]
+- Components and the equivalence-of-connectedness lemma: [[connectedness]], [[lemma - connectivity equivalence relation]]
+- Paths and uniqueness arguments: [[walk, trail, path, cycle]], [[path]]

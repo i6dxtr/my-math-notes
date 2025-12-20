@@ -18,6 +18,6 @@
 
 
 Relations
-- [[content/theorems, lemma/theorem - 2-connected via internally disjoint paths.md]]
-- [[content/theorems, lemma/lemma - maximal-path spanning cycle (Lemma 0.2).md]]
-- [[content/theorems, lemma/theorem - 2-connected via internally disjoint paths.md]]
+- [[theorem - 2-connected via internally disjoint paths]]
+- [[lemma - maximal-path spanning cycle (Lemma 0.2)]]
+- [[theorem - 2-connected via internally disjoint paths]]

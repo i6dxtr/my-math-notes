@@ -13,6 +13,6 @@
 
 
 Relations
-- [[content/theorems, lemma/theorem - 2-connected via internally disjoint paths.md]]
-- [[content/theorems, lemma/theorem - Menger / Menger-type equivalences.md]]
-- [[content/theorems, lemma/lemma - DFST edge endpoints on same branch (Lemma 4.1.22).md]]
+- [[theorem - 2-connected via internally disjoint paths]]
+- [[ Menger-type equivalences]]
+- [[lemma - DFST edge endpoints on same branch (Lemma 4.1.22)]]

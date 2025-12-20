@@ -19,6 +19,6 @@
 > 
 > This completes the induction and proves the theorem.
 Relations
-- Definition: [[content/foundational/X,Y-barrier.md]].
-- See [[content/foundational/X,Y-paths and fans.md]] and [[content/theorems, lemma/theorem - Menger / Menger-type equivalences.md]] for equivalent formulations and corollaries.
-- Application: [[content/theorems, lemma/theorem - König–Egerváry (1931).md]] (use Menger in bipartite setting to relate matchings and vertex covers).
+- Definition: [[X,Y-barrier]].
+- See [[X,Y-paths and fans]] and [[ Menger-type equivalences]] for equivalent formulations and corollaries.
+- Application: [[theorem - König–Egerváry (1931)]] (use Menger in bipartite setting to relate matchings and vertex covers).

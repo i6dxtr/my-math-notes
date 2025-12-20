@@ -10,6 +10,6 @@
 > 
 > Proof of (2): Let $c$ be a proper $k$-coloring and for each color $i$ let $V_i=c^{-1}(\{i\})$. Suppose, towards contradiction, there is some color (say $k$) such that every vertex of color $k$ is missing a neighbor of some other color (i.e., for each $v\in V_k$ there is a color $f(v)\in[k-1]$ with no neighbor of $v$ in $V_{f(v)}$). Then one can recolor all vertices of $V_k$ using colors in $[k-1]$ (choosing a color $f(v)$ for each $v$), producing a proper $(k-1)$-coloring of $G$, contradicting $\chi(G)=k$. Therefore the claimed vertex exists for each color class.
 Relations
-- See [[content/foundational/chromatic number.md]] for basic chromatic definitions.
-- Related: [[content/theorems, lemma/theorem - Mycielski construction.md]] (provides graphs with large chromatic number and small clique number).
-- Example used in class notes: [[Notes by date/11-19-25.md]].
+- See [[chromatic number]] for basic chromatic definitions.
+- Related: [[theorem - Mycielski construction]] (provides graphs with large chromatic number and small clique number).
+- Example used in class notes: [[11-19-25]].

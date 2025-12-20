@@ -71,7 +71,7 @@
 > $$
 > \alpha'(G)=\beta(G).
 > $$
-> See [[content/theorems, lemma/theorem - König–Egerváry (1931).md|König–Egerváry (1931)]].
+> See [[theorem - König–Egerváry (1931)|König–Egerváry (1931)]].
 
 > [!remark]
 > Additional useful inequalities and observations
@@ -80,9 +80,9 @@
 > - Algorithmic corollary: in bipartite graphs, a maximum matching (e.g., Hopcroft–Karp) yields a minimum vertex cover via the standard alternating‑path BFS construction.
 
 ### Relations
-- Independent sets and vertex covers: [[content/foundational/independent set.md|independent set]], [[content/foundational/vertex cover.md|vertex cover]].
-- Matchings and augmenting paths: [[content/foundational/matching.md|matching]], [[content/foundational/M-alternating path, M-augmenting path.md|augmenting paths]].
-- Edge covers and the star‑forest lemma: [[content/foundational/edge cover.md|edge cover]], [[content/theorems, lemma/lemma - star forest.md|Star forest lemma]].
-- König–Egerváry theorem (bipartite equality): [[content/theorems, lemma/theorem - König–Egerváry (1931).md|König–Egerváry (1931)]].
+- Independent sets and vertex covers: [[independent set|independent set]], [[vertex cover|vertex cover]].
+- Matchings and augmenting paths: [[matching|matching]], [[M-alternating path, M-augmenting path|augmenting paths]].
+- Edge covers and the star‑forest lemma: [[edge cover|edge cover]], [[lemma - star forest|Star forest lemma]].
+- König–Egerváry theorem (bipartite equality): [[theorem - König–Egerváry (1931)|König–Egerváry (1931)]].
 - Use this note as a quick reference when proving parameter bounds in exercises and theorems (Tutte, Hall, matching existence results).
 ~~~

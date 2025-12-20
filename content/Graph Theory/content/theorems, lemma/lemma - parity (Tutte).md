@@ -8,6 +8,6 @@
 > $$n-|S|\equiv o(G-S)\pmod 2,$$
 > which rearranges to the stated congruence.
 Relations
-- [[content/foundational/odd components.md]] — Definition: odd components
-- [[content/theorems, lemma/theorem - Tutte's theorem.md]] — Tutte's theorem
-- [[content/foundational/components (graph).md]] — Component counting and parity arguments
+- [[odd components]] — Definition: odd components
+- [[theorem - Tutte's theorem]] — Tutte's theorem
+- [[components (graph)]] — Component counting and parity arguments

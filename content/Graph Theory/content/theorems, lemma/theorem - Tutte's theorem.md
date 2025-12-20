@@ -12,8 +12,7 @@
 > 
 > (⇐) The nontrivial direction is proved by induction on $n=|V(G)|$. The notes give a full inductive proof: pick a maximal nonempty set $T$ with $o(G-T)=|T|$, show every component of $G-T$ is odd, remove one vertex from each component and apply the induction hypothesis to obtain perfect matchings on the resulting subgraphs, then use Hall's theorem on an auxiliary bipartite graph to match the vertices of $T$ to the components. See the detailed proof file for the complete induction with claims.
 ### Relations
-- [[content/foundational/odd components.md]] — Definition of $o(H)$ and Tutte's condition (used in statement).
-- [[content/theorems, lemma/theorem - Tutte's theorem (detailed proof).md]] — Expanded full proof (induction and auxiliary claims).
-- [[content/foundational/matching.md]] — Definitions of matchings, perfect matchings; Tutte characterizes existence of perfect matchings.
+- [[odd components]] — Definition of $o(H)$ and Tutte's condition (used in statement).
+- [[theorem - Tutte's theorem (detailed proof)]] — Expanded full proof (induction and auxiliary claims).
+- [[matching]] — Definitions of matchings, perfect matchings; Tutte characterizes existence of perfect matchings.
 
-Source: Notes by date/10-17-25.md, Notes by date/10-20-25.md

@@ -18,6 +18,6 @@
 - Notes by date/9-28-25.md
 
 ### Relations
-- Base matching notions: [[content/foundational/matching.md]]
-- Alternating and augmenting paths (tool for finding larger matchings): [[content/foundational/M-alternating path, M-augmenting path.md]]
-- Independent sets interplay: [[content/foundational/independent set.md]]
+- Base matching notions: [[matching]]
+- Alternating and augmenting paths (tool for finding larger matchings): [[M-alternating path, M-augmenting path]]
+- Independent sets interplay: [[independent set]]

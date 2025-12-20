@@ -27,8 +27,8 @@
 - Trivial upper bound: $\chi(G)\le n(G)$ (color each vertex differently).
 
 ### Relations
-- Defined in terms of [[content/foundational/independent set.md|independent sets]].
-- Lower-bounded by [[content/foundational/clique.md|clique number $\omega(G)$]].
-- Bipartite graphs satisfy $\chi(G)\le 2$; see [[content/bipartite graph.md|bipartite graph]] and [[content/theorems, lemma/theorem - bipartite characterization.md|theorem - bipartite characterization]].
+- Defined in terms of [[independent set|independent sets]].
+- Lower-bounded by [[clique|clique number $\omega(G)$]].
+- Bipartite graphs satisfy $\chi(G)\le 2$; see [[bipartite graph|bipartite graph]] and [[theorem - bipartite characterization|theorem - bipartite characterization]].
 - Useful in extremal combinatorics, algorithmic graph coloring, and complexity theory (NP-completeness of computing $\chi(G)$).
-- Appears in advanced constructions and bounds: Mycielski construction produces triangle-free graphs with large chromatic number ([[content/theorems, lemma/theorem - Mycielski construction.md|Mycielski construction]]), and the Gallai–Roy–Vitaver theorem connects orientations to chromatic bounds ([[content/theorems, lemma/theorem - Gallai-Roy-Vitaver (1968).md|Gallai–Roy–Vitaver]]).
+- Appears in advanced constructions and bounds: Mycielski construction produces triangle-free graphs with large chromatic number ([[theorem - Mycielski construction|Mycielski construction]]), and the Gallai–Roy–Vitaver theorem connects orientations to chromatic bounds ([[theorem - Gallai-Roy-Vitaver (1968)|Gallai–Roy–Vitaver]]).

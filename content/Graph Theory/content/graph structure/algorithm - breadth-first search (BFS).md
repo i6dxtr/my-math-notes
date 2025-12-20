@@ -19,9 +19,9 @@
 - Notes by date/9-26-25.md
 
 ### Relations
-- Rooted BFS output: [[content/graph structure/definition - breadth-first search tree (BFST).md]]
-- Distance preservation: [[content/theorems, lemma/theorem - BFS preserves distances (Theorem 2.3.8*).md]]
-- Distance notions: [[content/foundational/distance, diameter.md]]
-- Connectivity: [[content/graph structure/connectedness.md]]
-- Paths and cycles: [[content/graph structure/walk, trail, path, cycle.md]], [[content/graph structure/path.md]]
-- Trees: [[content/foundational/tree.md]]
+- Rooted BFS output: [[definition - breadth-first search tree (BFST)]]
+- Distance preservation: [[theorem - BFS preserves distances (Theorem 2.3.8*)]]
+- Distance notions: [[distance, diameter]]
+- Connectivity: [[connectedness]]
+- Paths and cycles: [[walk, trail, path, cycle]], [[path]]
+- Trees: [[tree]]

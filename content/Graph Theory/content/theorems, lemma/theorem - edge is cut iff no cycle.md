@@ -9,8 +9,8 @@
 > 
 > (⇐) Conversely, suppose $G-e$ is connected. Let $e=xy$. Since $G-e$ is connected there exists an $x,y$‑path $P$ in $G-e$. Adding the edge $e$ to $P$ produces a cycle in $G$ that contains $e$. Thus if $e$ is a cut-edge, no such cycle can exist.
 ### Relations
-- Uses [[content/theorems, lemma/lemma - walk contains path.md|Lemma 1.2.5]] (walk→path) in the standard connectivity argument.
-- Directly characterizes [[content/graph structure/cut-vertex, cut-edge.md|cut-edges]].
+- Uses [[lemma - walk contains path|Lemma 1.2.5]] (walk→path) in the standard connectivity argument.
+- Directly characterizes [[cut-vertex, cut-edge|cut-edges]].
 - Connects to cycle-based structural results and to bridge/block decompositions.
-- Related to decomposition and Eulerian/cycle covering results (see [[content/theorems, lemma/proposition - decomposition into cycles iff even degree (Proposition 1.2.27).md|proposition - decomposition into cycles iff even degree]] and [[content/theorems, lemma/theorem - eulerian circuit condition.md|theorem - eulerian circuit condition]]).
-- Also used in proofs about matching corollaries that require absence of cut-edges (Petersen corollary): [[content/theorems, lemma/corollary - Petersen 3-regular perfect matching (3.3.8).md|Petersen 3-regular perfect matching (3.3.8)]].
+- Related to decomposition and Eulerian/cycle covering results (see [[proposition - decomposition into cycles iff even degree (Proposition 1.2.27)|proposition - decomposition into cycles iff even degree]] and [[theorem - eulerian circuit condition|theorem - eulerian circuit condition]]).
+- Also used in proofs about matching corollaries that require absence of cut-edges (Petersen corollary): [[corollary - Petersen 3-regular perfect matching (3.3.8)|Petersen 3-regular perfect matching (3.3.8)]].

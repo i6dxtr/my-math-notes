@@ -14,6 +14,6 @@
 > 
 > 
 > Relations
-> - [[content/theorems, lemma/theorem - Hall's theorem (Theorem 3.1.11).md]]
-> - [[content/examples/exercise - 18.md]]
-> - [[content/foundational/matching.md]]
+> - [[theorem - Hall's theorem (Theorem 3.1.11)]]
+> - [[exercise - 18]]
+> - [[matching]]

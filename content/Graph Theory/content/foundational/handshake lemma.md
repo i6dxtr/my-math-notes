@@ -20,5 +20,5 @@
 ### Relations
 - Relies on the definition of [[degree]].
 - Applied in proofs about Eulerian circuits (see [[theorem - eulerian circuit condition]]) and in parity/connectivity arguments (see [[components (graph)]]).
-- Used throughout counting and matching arguments: degree-sum arguments appear in matching/edge-cover identities ([[theorem - matching + edge cover = n]], [[edge cover]], [[maximal matching, maximum matching]]), and in cycle decompositions ([[proposition - decomposition into cycles iff even degree (Proposition 1.2.27).md]]).
+- Used throughout counting and matching arguments: degree-sum arguments appear in matching/edge-cover identities ([[theorem - matching + edge cover = n]], [[edge cover]], [[maximal matching, maximum matching]]), and in cycle decompositions ([[proposition - decomposition into cycles iff even degree (Proposition 1.2.27)]]).
 - Important in algorithmic analysis when summing work over adjacency lists (BFS/DFS) and in degree-based extremal results (Dirac-type bounds; see [[theorem - minimum degree & path-cycle length]]).

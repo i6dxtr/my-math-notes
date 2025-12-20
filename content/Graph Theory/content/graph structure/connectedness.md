@@ -10,4 +10,4 @@
 - Foundational for results about paths and cycles; see [[path]] and [[walk, trail, path, cycle]].
 - Connects to subgraph notions ([[(induced) subgraphs]]), Eulerian circuit conditions ([[theorem - eulerian circuit condition]]), and bipartiteness ([[theorem - bipartite characterization]]).
 - Later algorithms and tree results build on connectedness: BFS/DFST distance preservation and spanning tree constructions ([[algorithm - breadth-first search (BFS)]], [[definition - breadth-first search tree (BFST)]], [[definition - rooted tree and branch]]), and tree characterizations/lemmata (see [[tree]], [[lemma - tree has two leaves]]).
-- Connectedness is also used in matching/Tutte arguments where odd components and vertex deletions play a central role ([[odd components]], [[Tutte's theorem]], [[theorem - Tutte's theorem (detailed proof).md]]).
+- Connectedness is also used in matching/Tutte arguments where odd components and vertex deletions play a central role ([[odd components]], [[Tutte's theorem]], [[theorem - Tutte's theorem (detailed proof)]]).

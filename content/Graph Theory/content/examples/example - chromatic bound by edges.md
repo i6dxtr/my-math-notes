@@ -9,6 +9,6 @@
 > $$k-1<\sqrt{2m}\quad\Rightarrow\quad k<1+\sqrt{2m},$$
 > as required.
 Relations
-- See [[content/foundational/chromatic number.md]] for definitions of $\chi(G)$.
-- Related inequalities: [[content/foundational/inequalities - independence matching cover.md]] and examples in [[content/examples/exercise - 1 degree pigeonhole.md]].
-- Source: Notes by date/12-1-25.md.
+- See [[chromatic number]] for definitions of $\chi(G)$.
+- Related inequalities: [[inequalities - independence matching cover]] and examples in [[exercise - 1 degree pigeonhole]].
+- 

@@ -11,6 +11,6 @@
 - Notes by date/9-28-25.md
 
 ### Relations
-- DFST and same‑branch property: [[content/graph structure/definition - depth-first search tree (DFST).md]], [[content/theorems, lemma/lemma - DFST edge endpoints on same branch (Lemma 4.1.22).md]]
-- Rooted tree and branches: [[content/graph structure/definition - rooted tree and branch.md]]
-- Chromatic number and $k$‑partite: [[content/foundational/chromatic number.md]]
+- DFST and same‑branch property: [[definition - depth-first search tree (DFST)]], [[lemma - DFST edge endpoints on same branch (Lemma 4.1.22)]]
+- Rooted tree and branches: [[definition - rooted tree and branch]]
+- Chromatic number and $k$‑partite: [[chromatic number]]

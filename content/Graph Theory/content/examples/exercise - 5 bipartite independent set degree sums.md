@@ -16,6 +16,6 @@
 - Part (2) is an immediate counting observation; it is often used when comparing partition sizes or edge distributions in bipartite graphs.
 
 ### Relations
-- Bipartite characterization and odd-cycle obstruction: [[content/theorems, lemma/theorem - bipartite characterization.md]].
-- Independent sets: [[content/foundational/independent set.md]].
-- Degree and handshake counting: [[content/foundational/degree.md]], [[content/foundational/handshake lemma.md]].
+- Bipartite characterization and odd-cycle obstruction: [[theorem - bipartite characterization]].
+- Independent sets: [[independent set]].
+- Degree and handshake counting: [[degree]], [[handshake lemma]].

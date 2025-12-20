@@ -25,7 +25,7 @@
 - In the complete graph $K_n$, $\beta(K_n)=n-1$ (every edge touches all but one vertex).
 - For a disjoint union of $k$ triangles, $\beta(G)=2k$ while $\alpha'(G)=k$.
 ### Relations
-- Complementary to [[content/foundational/independent set.md|independent set]].
-- Related to [[content/foundational/matching.md|matching]] and [[content/foundational/maximal matching, maximum matching.md|maximal/maximum matching]].
+- Complementary to [[independent set|independent set]].
+- Related to [[matching|matching]] and [[maximal matching, maximum matching|maximal/maximum matching]].
 - For bipartite graphs see [[theorem - König–Egerváry (1931)]].
-- Connected to order & size: [[content/foundational/order, size.md|order, size]].
+- Connected to order & size: [[order, size|order, size]].

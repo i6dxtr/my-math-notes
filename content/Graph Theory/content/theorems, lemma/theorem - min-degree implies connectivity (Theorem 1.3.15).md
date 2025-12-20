@@ -13,6 +13,6 @@
 > $$
 > Thus there exists $x\in N(u)\cap N(v)$, and $uxv$ is a path of length $2$ between $u$ and $v$. Since this holds for every pair $u,v$, $G$ is connected and every pair of vertices is at distance at most $2$, so the diameter of $G$ is at most $2$.
 ### Relations
-- Neighborhood and degree definitions: [[content/foundational/degree.md]], [[content/foundational/graph.md]].
-- Minimum-degree consequences and long path/cycle results: [[content/theorems, lemma/theorem - minimum degree & path-cycle length.md]], [[content/theorems, lemma/theorem - dirac (hamiltonian).md]].
-- Applications to diameter/centrality: [[content/foundational/distance, diameter.md]].
+- Neighborhood and degree definitions: [[degree]], [[graph]].
+- Minimum-degree consequences and long path/cycle results: [[theorem - minimum degree & path-cycle length]], [[theorem - dirac (hamiltonian)]].
+- Applications to diameter/centrality: [[distance, diameter]].

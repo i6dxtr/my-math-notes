@@ -12,7 +12,7 @@
 > $$\lvert N(X\setminus Q)\rvert \le \lvert Q_Y\rvert < \lvert X\setminus Q\rvert.$$
 > Taking $S'=X\setminus Q$ produces the required subset of $X$ with strictly fewer neighbors than elements, proving the contrapositive of Hall's theorem.
 Relations
-- [[content/theorems, lemma/theorem - Hall's theorem (Theorem 3.1.11).md]] — Hall's marriage theorem
-- [[content/theorems, lemma/theorem - Cantor-Schroeder-Bernstein.md]] — Matching viewpoint and related constructions
-- [[content/theorems, lemma/theorem - augmenting path characterization.md]] — Matching optimality and augmenting paths
-- [[content/foundational/matching.md]] — Matching definitions and saturation
+- [[theorem - Hall's theorem (Theorem 3.1.11)]] — Hall's marriage theorem
+- [[theorem - Cantor-Schroeder-Bernstein]] — Matching viewpoint and related constructions
+- [[theorem - augmenting path characterization]] — Matching optimality and augmenting paths
+- [[matching]] — Matching definitions and saturation

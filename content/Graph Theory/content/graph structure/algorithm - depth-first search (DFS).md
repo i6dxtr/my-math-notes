@@ -19,9 +19,9 @@
 - Notes by date/9-28-25.md
 
 ### Relations
-- Rooted DFS output: [[content/graph structure/definition - depth-first search tree (DFST).md]]
-- Same-branch property: [[content/theorems, lemma/lemma - DFST edge endpoints on same branch (Lemma 4.1.22).md]]
-- Rooted trees and branches: [[content/graph structure/definition - rooted tree and branch.md]]
-- Connectivity: [[content/graph structure/connectedness.md]]
-- Paths and cycles: [[content/graph structure/walk, trail, path, cycle.md]], [[content/graph structure/path.md]]
-- Trees: [[content/foundational/tree.md]]
+- Rooted DFS output: [[definition - depth-first search tree (DFST)]]
+- Same-branch property: [[lemma - DFST edge endpoints on same branch (Lemma 4.1.22)]]
+- Rooted trees and branches: [[definition - rooted tree and branch]]
+- Connectivity: [[connectedness]]
+- Paths and cycles: [[walk, trail, path, cycle]], [[path]]
+- Trees: [[tree]]

@@ -10,6 +10,6 @@
 > 
 > 
 > Relations
-> - [[content/foundational/separating set, connectivity.md]]
-> - [[content/foundational/disconnecting set, edge-connectivity.md]]
-> - [[content/theorems, lemma/lemma - minimal disconnecting set is edge cut.md]]
+> - [[separating set, connectivity]]
+> - [[disconnecting set, edge-connectivity]]
+> - [[lemma - minimal disconnecting set is edge cut]]

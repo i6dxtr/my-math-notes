@@ -18,6 +18,6 @@
 - The counterexample $P_k$ vs $\overline{P_k}$ for small $k$ illustrates why the converse fails in general.
 
 ### Relations
-- Definition: [[content/foundational/graph complement.md]].
-- Connectivity and components: [[content/graph structure/connectedness.md]], [[content/foundational/components (graph).md]].
-- Useful for diameter/complement arguments: [[content/foundational/distance, diameter.md]].
+- Definition: [[graph complement]].
+- Connectivity and components: [[connectedness]], [[components (graph)]].
+- Useful for diameter/complement arguments: [[distance, diameter]].

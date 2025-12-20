@@ -30,10 +30,10 @@
 - Notes by date/9-12-25.md (figures referenced)
 
 ### Figures
-![[content/images/Pasted image 20250912134553.png]]
-![[content/images/Pasted image 20250912140559.png]]
+![[Pasted image 20250912134553.png]]
+![[Pasted image 20250912140559.png]]
 
 ### Relations
-- Maximal path and cycle techniques: [[content/theorems, lemma/proposition - maximal paths & cycles.md]]
-- Minimum-degree consequences and Dirac-type results: [[content/theorems, lemma/theorem - minimum degree & path-cycle length.md]], [[content/theorems, lemma/theorem - dirac (hamiltonian).md]]
-- Uses path/cycle definitions: [[content/graph structure/walk, trail, path, cycle.md]], [[content/graph structure/path.md]]
+- Maximal path and cycle techniques: [[proposition - maximal paths & cycles]]
+- Minimum-degree consequences and Dirac-type results: [[theorem - minimum degree & path-cycle length]], [[theorem - dirac (hamiltonian)]]
+- Uses path/cycle definitions: [[walk, trail, path, cycle]], [[path]]

@@ -10,8 +10,7 @@
 - The statement is sharp in various regimes and has several refinements and related sufficient conditions in the literature.
 
 ### Relations
-- [[content/foundational/independent set.md]] — Uses the independence number $\alpha(G)$.
+- [[independent set]] — Uses the independence number $\alpha(G)$.
 - [[separating set, k-connectivity]] — Uses connectivity $\kappa(G)$.
-- [[content/theorems, lemma/theorem - Menger / Menger-type equivalences.md]] — The proof employs Menger‑style arguments to produce disjoint paths used to extend cycles.
+- [[ Menger-type equivalences]] — The proof employs Menger‑style arguments to produce disjoint paths used to extend cycles.
 
-Source: Notes by date/11-3-25.md

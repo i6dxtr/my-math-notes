@@ -8,6 +8,6 @@
 > 
 > 2. Let $F$ be a forest and suppose, for contradiction, that $F$ has two distinct perfect matchings $M$ and $M'$. Consider $M\triangle M'$. By part 1 every component of $M\triangle M'$ is an isolated vertex or an even cycle. But a forest contains no cycles, so every component must be an isolated vertex. Therefore $M\triangle M'=\varnothing$, so $M=M'$, contradicting that they were distinct. Thus every forest has at most one perfect matching.
 ### Relations
-- Uses the symmetric-difference structural lemma: [[content/theorems, lemma/lemma - symmetric difference of matchings (Lemma 3.1.9).md|Lemma 3.1.9]].
-- Builds on matching definitions: [[content/foundational/matching.md|matching]] and maximal/maximum distinctions ([[content/foundational/maximal matching, maximum matching.md|maximal vs maximum matching]]).
-- Related files: [[content/theorems, lemma/theorem - augmenting path characterization.md|augmenting-path characterization]] and [[content/theorems, lemma/theorem - Cantor-Schroeder-Bernstein.md|Cantor–Schroeder–Bernstein]] (matching constructions).
+- Uses the symmetric-difference structural lemma: [[lemma - symmetric difference of matchings (Lemma 3.1.9)|Lemma 3.1.9]].
+- Builds on matching definitions: [[matching|matching]] and maximal/maximum distinctions ([[maximal matching, maximum matching|maximal vs maximum matching]]).
+- Related files: [[theorem - augmenting path characterization|augmenting-path characterization]] and [[theorem - Cantor-Schroeder-Bernstein|Cantor–Schroeder–Bernstein]] (matching constructions).

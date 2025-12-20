@@ -41,11 +41,10 @@
 > If $G$ contains a bridge (an edge whose deletion increases the number of components), then that edge alone is a disconnecting set and $\kappa'(G)=1$. Conversely if $\kappa'(G)=1$ then $G$ has a bridge.
 
 ### Relations
-- [[content/graph structure/vertex & edge deletion.md]] — Deletion operations $G-e$ and $G-F$ are used in definitions and proofs.
-- [[content/theorems, lemma/lemma - minimal disconnecting set is edge cut.md]] — (If present) alternative statement/proof of the minimal disconnecting‑set lemma.
-- [[content/theorems, lemma/theorem - Whitney inequality (4.1.7).md]] — (If present) an expanded theorem file for the inequality $\kappa\le\kappa'\le\delta$.
-- [[content/foundational/degree.md]] — The minimum degree $\delta(G)$ provides an upper bound for $\kappa'(G)$.
-- [[content/foundational/cut-vertex, cut-edge.md]] — Bridges (cut‑edges) relate directly to $\kappa'(G)=1$; cut‑vertices relate to vertex connectivity $\kappa(G)$.
-- [[etc/MOC - Graph Theory.md]] — Map of concepts and where edge‑connectivity fits in the course MOC.
+- [[vertex & edge deletion]] — Deletion operations $G-e$ and $G-F$ are used in definitions and proofs.
+- [[lemma - minimal disconnecting set is edge cut]] — (If present) alternative statement/proof of the minimal disconnecting‑set lemma.
+- [[theorem - Whitney inequality (4.1.7)]] — (If present) an expanded theorem file for the inequality $\kappa\le\kappa'\le\delta$.
+- [[degree]] — The minimum degree $\delta(G)$ provides an upper bound for $\kappa'(G)$.
+- [[cut-vertex, cut-edge]] — Bridges (cut‑edges) relate directly to $\kappa'(G)=1$; cut‑vertices relate to vertex connectivity $\kappa(G)$.
+- [[MOC - Graph Theory]] — Map of concepts and where edge‑connectivity fits in the course MOC.
 
-Source: Notes by date/10-27-25.md; lecture notes (lecture/438Notes_f25.pdf).

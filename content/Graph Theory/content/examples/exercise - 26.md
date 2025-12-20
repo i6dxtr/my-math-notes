@@ -17,6 +17,6 @@ Let $G' = G-xy$ and let $S'$ be a minimum vertex cut of $G'$ (which exists since
 
 
 Relations
-- [[content/foundational/separating set, connectivity.md]]
-- [[content/theorems, lemma/lemma - connectivity equivalence relation.md]]
-- [[content/theorems, lemma/lemma - minimal disconnecting set is edge cut.md]]
+- [[separating set, connectivity]]
+- [[lemma - connectivity equivalence relation]]
+- [[lemma - minimal disconnecting set is edge cut]]

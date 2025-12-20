@@ -11,10 +11,9 @@
 > $K_n$ has no separating set of size $<n-1$ (it remains connected after deleting fewer than $n-1$ vertices), and deleting $n-1$ vertices leaves a single vertex, so the minimum separating set size is $n-1$.
 
 ### Relations
-- [[content/graph structure/cut-vertex, cut-edge.md]] — Cut-vertex is a separating set of size $1$; the definitions are compatible.
-- [[content/theorems, lemma/remark - connectivity of K_n.md]] — Short remark/proof that $\kappa(K_n)=n-1$ (this file provides a compact remark; keep both for navigation).
-- [[content/theorems, lemma/theorem - Whitney inequality (4.1.7).md]] — Connectivity is compared with edge‑connectivity and minimum degree in Whitney's inequality.
+- [[cut-vertex, cut-edge]] — Cut-vertex is a separating set of size $1$; the definitions are compatible.
+- [[remark - connectivity of K_n]] — Short remark/proof that $\kappa(K_n)=n-1$ (this file provides a compact remark; keep both for navigation).
+- [[theorem - Whitney inequality (4.1.7)]] — Connectivity is compared with edge‑connectivity and minimum degree in Whitney's inequality.
 - [[disconnecting set, edge-connectivity]]
 - [[connectedness]]
 
-Source: Notes by date/10-24-25.md

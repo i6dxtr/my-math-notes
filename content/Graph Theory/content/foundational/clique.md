@@ -8,8 +8,8 @@
 > The clique number $\omega(G)$ denotes the size of a largest clique in $G$.
 
 ### Relations
-- Complementary to [[content/foundational/independent set.md|independent set]]: cliques in $G$ are independent sets in $\overline{G}$ ([[content/foundational/graph complement.md|graph complement]]).
+- Complementary to [[independent set|independent set]]: cliques in $G$ are independent sets in $\overline{G}$ ([[graph complement|graph complement]]).
 - Cliques provide lower bounds on the chromatic number: $\chi(G) \ge \omega(G)$ (every clique requires distinct colors).
 - Appears in extremal problems and is central to Turán-type results and Ramsey theory.
-- Related concept: complete graphs, see [[content/foundational/graph.md|graph]].
-- Cliques and independence/clique bounds appear in Hamiltonicity/connectivity bounds (Chvátal–Erdős) and in constructions like Mycielski that separate these parameters (see [[content/theorems, lemma/theorem - Chv\'atal-Erd\'os Hamiltonicity condition.md|Chvátal–Erdős Hamiltonicity condition]], [[content/theorems, lemma/theorem - Mycielski construction.md|Mycielski construction]]).
+- Related concept: complete graphs, see [[graph|graph]].
+- Cliques and independence/clique bounds appear in Hamiltonicity/connectivity bounds (Chvátal–Erdős) and in constructions like Mycielski that separate these parameters (see [['os Hamiltonicity condition|Chvátal–Erdős Hamiltonicity condition]], [[theorem - Mycielski construction|Mycielski construction]]).

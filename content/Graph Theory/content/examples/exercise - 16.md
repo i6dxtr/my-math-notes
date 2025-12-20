@@ -23,6 +23,6 @@ we have $|Q_Y| < |X \setminus Q|.$ However, since $Q = Q_X \cup Q_Y$ is a vertex
 
 
 Relations
-- [[content/theorems, lemma/theorem - König–Egerváry (1931).md]]
-- [[content/theorems, lemma/theorem - Hall's theorem (Theorem 3.1.11).md]]
-- [[content/foundational/vertex cover.md]]
+- [[theorem - König–Egerváry (1931)]]
+- [[theorem - Hall's theorem (Theorem 3.1.11)]]
+- [[vertex cover]]

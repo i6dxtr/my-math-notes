@@ -11,8 +11,7 @@
 > $$
 > as required.
 ### Relations
-- [[content/foundational/disconnecting set, edge-connectivity.md]] — Formal definitions of disconnecting sets and edge cuts.
-- [[content/theorems, lemma/theorem - Whitney inequality (4.1.7).md]] — This lemma is used in the proof of Whitney's inequality relating vertex- and edge-connectivity.
-- [[content/graph structure/vertex & edge deletion.md]] — Uses the notion of deleting edges $G-F$.
+- [[disconnecting set, edge-connectivity]] — Formal definitions of disconnecting sets and edge cuts.
+- [[theorem - Whitney inequality (4.1.7)]] — This lemma is used in the proof of Whitney's inequality relating vertex- and edge-connectivity.
+- [[vertex & edge deletion]] — Uses the notion of deleting edges $G-F$.
 
-Source: Notes by date/10-27-25.md

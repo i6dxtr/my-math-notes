@@ -18,9 +18,9 @@
 > 
 > We now show that $N(S)\subseteq T$. Suppose for contradiction that there exists $v\in N(S)\setminus T$. Then $v$ is adjacent to some $x\in S$ but there is no $M$‑alternating path from $u$ to $v$. Construct an $M$‑alternating path from $u$ to $x$ (one exists by definition of $S$) and append the edge $xv$; this yields an $M$‑alternating path from $u$ to $v$, contradiction. Therefore $N(S)\subseteq T$, so $|N(S)|\le |T|=|S|-1$, which contradicts the hypothesis that $|N(S)|\ge |S|$ for all $S\subseteq X$. This completes the proof.
 ### Relations
-- Uses alternating/augmenting path definitions: [[content/foundational/M-alternating path, M-augmenting path.md|M‑alternating / M‑augmenting path]].
-- Structural lemma on symmetric differences is relevant: [[content/theorems, lemma/lemma - symmetric difference of matchings (Lemma 3.1.9).md|Lemma 3.1.9]].
-- Relates to matching basics: [[content/foundational/matching.md|matching]] and maximal vs maximum matching [[content/foundational/maximal matching, maximum matching.md|maximal/maximum matching]].
+- Uses alternating/augmenting path definitions: [[M-alternating path, M-augmenting path|M‑alternating / M‑augmenting path]].
+- Structural lemma on symmetric differences is relevant: [[lemma - symmetric difference of matchings (Lemma 3.1.9)|Lemma 3.1.9]].
+- Relates to matching basics: [[matching|matching]] and maximal vs maximum matching [[maximal matching, maximum matching|maximal/maximum matching]].
 - Applied in examples such as the deck‑of‑cards selection problem and many bipartite matching algorithms.
 
 

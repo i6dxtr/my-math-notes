@@ -14,7 +14,7 @@
 - Notes by date/9-28-25.md
 
 ### Relations
-- Extremal questions about $\alpha(G)$ vs matchings: [[content/foundational/independent set.md]]
-- Maximal/maximum matchings: [[content/foundational/maximal matching, maximum matching.md]]
-- Alternating and augmenting paths: [[content/foundational/M-alternating path, M-augmenting path.md]]
-- Paths and trails background: [[content/graph structure/walk, trail, path, cycle.md]], [[content/graph structure/path.md]]
+- Extremal questions about $\alpha(G)$ vs matchings: [[independent set]]
+- Maximal/maximum matchings: [[maximal matching, maximum matching]]
+- Alternating and augmenting paths: [[M-alternating path, M-augmenting path]]
+- Paths and trails background: [[walk, trail, path, cycle]], [[path]]

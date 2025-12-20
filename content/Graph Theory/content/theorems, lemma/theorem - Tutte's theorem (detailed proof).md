@@ -57,8 +57,7 @@
 > 
 > This completes the induction and thus the proof. ∎
 ### Relations
-- [[content/theorems, lemma/theorem - Tutte's theorem.md]] — Compact statement and short sketch.
-- [[content/theorems, lemma/lemma - parity lemma (Tutte).md]] — Parity facts used in some counting steps.
-- [[content/theorems, lemma/claim - maximal T set claim.md]] — (If desired) an explicit small file extracting the maximal-T claim used above.
+- [[theorem - Tutte's theorem]] — Compact statement and short sketch.
+- [[lemma - parity lemma (Tutte)]] — Parity facts used in some counting steps.
+- [[claim - maximal T set claim]] — (If desired) an explicit small file extracting the maximal-T claim used above.
 
-Source: Notes by date/10-20-25.md

@@ -17,7 +17,7 @@
 > 
 > Combining the two inequalities yields $\alpha'(G)+\beta'(G)=n$.
 Relations
-- [[content/foundational/matching.md]] — Matchings, $\alpha'(G)$
-- [[content/foundational/edge cover.md]] — Edge covers, $\beta'(G)$
-- [[content/theorems, lemma/lemma - star forest.md]] — Star-forest structure of minimum edge covers (used in the proof)
-- [[content/theorems, lemma/theorem - matching + edge cover = n.md]] — (this file)
+- [[matching]] — Matchings, $\alpha'(G)$
+- [[edge cover]] — Edge covers, $\beta'(G)$
+- [[lemma - star forest]] — Star-forest structure of minimum edge covers (used in the proof)
+- [[theorem - matching + edge cover = n]] — (this file)

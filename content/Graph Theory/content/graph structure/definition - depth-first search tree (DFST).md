@@ -10,8 +10,8 @@
 - Notes by date/9-28-25.md
 
 ### Relations
-- Construction procedure: [[content/graph structure/algorithm - depth-first search (DFS).md]]
-- Same-branch property: [[content/theorems, lemma/lemma - DFST edge endpoints on same branch (Lemma 4.1.22).md]]
-- Rooted trees and branch notion: [[content/graph structure/definition - rooted tree and branch.md]]
-- Connectivity basics: [[content/graph structure/connectedness.md]]
-- Trees and spanning trees: [[content/foundational/tree.md]]
+- Construction procedure: [[algorithm - depth-first search (DFS)]]
+- Same-branch property: [[lemma - DFST edge endpoints on same branch (Lemma 4.1.22)]]
+- Rooted trees and branch notion: [[definition - rooted tree and branch]]
+- Connectivity basics: [[connectedness]]
+- Trees and spanning trees: [[tree]]

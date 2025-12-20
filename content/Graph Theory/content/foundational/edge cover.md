@@ -6,7 +6,7 @@
 
 
 Relations
-- Related concept: [[content/foundational/matching.md]] (matchings and their relation to edge covers)
-- Structural lemma: [[content/theorems, lemma/lemma - star forest.md]] (components of a minimum edge cover form stars)
-- Related theorem: [[content/theorems, lemma/theorem - edge cover matching relation.md]] (relation between minimum edge cover size and maximum matching)
-- Useful contrast: [[content/foundational/independent set.md]] (independent sets vs vertex covers)
+- Related concept: [[matching]] (matchings and their relation to edge covers)
+- Structural lemma: [[lemma - star forest]] (components of a minimum edge cover form stars)
+- Related theorem: [[theorem - edge cover matching relation]] (relation between minimum edge cover size and maximum matching)
+- Useful contrast: [[independent set]] (independent sets vs vertex covers)

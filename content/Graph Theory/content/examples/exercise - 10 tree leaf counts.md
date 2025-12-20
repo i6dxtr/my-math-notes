@@ -41,6 +41,6 @@
 > $$
 > Hence $T$ has more than $n/2$ leaves.
 ### Relations
-- Trees and standard characterizations: [[content/theorems, lemma/theorem - trees characterization.md]]
-- Tree facts and leaves lemma: [[content/theorems, lemma/lemma - tree has two leaves.md]]
-- Examples and path uniqueness: [[content/graph structure/path.md]], [[content/graph structure/walk, trail, path, cycle.md]]
+- Trees and standard characterizations: [[theorem - trees characterization]]
+- Tree facts and leaves lemma: [[lemma - tree has two leaves]]
+- Examples and path uniqueness: [[path]], [[walk, trail, path, cycle]]

@@ -18,6 +18,6 @@ $$\alpha(G) + \beta(G) = n = \alpha'(G) + \beta'(G)$$
 and since $G$ is bipartite we have $\alpha'(G) = \beta(G).$ Together, this implies that $\alpha(G) = \beta'(G).$ $\square$
 
 Relations
-- [[content/theorems, lemma/lemma - star forest.md]]
-- [[content/theorems, lemma/theorem - matching + edge cover = n.md]]
-- [[content/foundational/edge cover.md]]
+- [[lemma - star forest]]
+- [[theorem - matching + edge cover = n]]
+- [[edge cover]]

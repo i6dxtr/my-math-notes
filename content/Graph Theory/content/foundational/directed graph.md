@@ -18,6 +18,6 @@
 > This file records the definition and standard notation for directed graphs used in lectures. No proof is required.
 
 ### Relations
-- Basic graph definitions and comparisons: [[content/foundational/graph.md]]
-- Degree conventions and parity: [[content/foundational/degree.md]]
-- Directed variants of paths and cycles: [[content/graph structure/walk, trail, path, cycle.md]]
+- Basic graph definitions and comparisons: [[graph]]
+- Degree conventions and parity: [[degree]]
+- Directed variants of paths and cycles: [[walk, trail, path, cycle]]

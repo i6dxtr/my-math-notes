@@ -9,6 +9,6 @@
 > $$\alpha(G)=|V\setminus Q|=n-\beta(G).$$
 > Rearranging gives $\alpha(G)+\beta(G)=n$.
 Relations
-- [[content/foundational/independent set.md]] — Independent set, $\alpha(G)$
-- [[content/foundational/vertex cover.md]] — Vertex cover, $\beta(G)$ (see also [[content/foundational/matching.md]] for relations via Kőnig–Egerváry in bipartite graphs)
-- [[content/theorems, lemma/lemma - alpha plus beta equals n.md]] — (this file)
+- [[independent set]] — Independent set, $\alpha(G)$
+- [[vertex cover]] — Vertex cover, $\beta(G)$ (see also [[matching]] for relations via Kőnig–Egerváry in bipartite graphs)
+- [[lemma - alpha plus beta equals n]] — (this file)

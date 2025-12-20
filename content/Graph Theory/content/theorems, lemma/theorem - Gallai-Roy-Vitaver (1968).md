@@ -15,6 +15,6 @@
 > 
 > For equality, let $k=\chi(G)$ and take a proper coloring of $G$ with color classes $V_1,\dots,V_k$. Orient every edge from $V_i$ to $V_j$ when $i<j$. This orientation has no directed path of length $k$; the longest path has length at most $k-1$, so $l(D)+1\le k$, giving equality for this orientation.
 Relations
-- See [[content/foundational/directed graph.md]] for orientation/digraph definitions.
-- Related: [[content/theorems, lemma/theorem - Gallai-Roy-Vitaver (1968).md]] (this file), and [[content/theorems, lemma/theorem - Mycielski construction.md]] for chromatic constructions.
-- Corollary: Rédei's theorem on tournaments (Hamiltonian path) — see [[content/theorems, lemma/corollary - Rédei tournament Hamiltonian path.md]].
+- See [[directed graph]] for orientation/digraph definitions.
+- Related: [[theorem - Gallai-Roy-Vitaver (1968)]] (this file), and [[theorem - Mycielski construction]] for chromatic constructions.
+- Corollary: Rédei's theorem on tournaments (Hamiltonian path) — see [[corollary - Rédei tournament Hamiltonian path]].

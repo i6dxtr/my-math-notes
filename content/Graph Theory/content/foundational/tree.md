@@ -28,11 +28,11 @@
 - A spanning tree of a connected graph $G$ is a tree subgraph of $G$ containing all vertices of $G$. Spanning trees are fundamental in algorithms (BFS/DFS, minimum spanning tree problems) and structural proofs.
 
 ### Relations
-- Core definition: [[content/foundational/graph.md]] (graph, degree, adjacency).
-- Connectedness and uniqueness of paths: [[content/graph structure/connectedness.md]], [[content/graph structure/walk, trail, path, cycle.md]].
-- Components and forests: [[content/foundational/components (graph).md]].
-- Degree facts and parity: [[content/foundational/degree.md]], [[content/foundational/handshake lemma.md]].
-- Results about cycles used in tree arguments: [[content/theorems, lemma/lemma - minimum degree 2 implies cycle.md]], [[content/theorems, lemma/lemma - walk contains path.md]].
-- Global metrics where trees appear as extremal examples: [[content/foundational/distance, diameter.md]].
+- Core definition: [[graph]] (graph, degree, adjacency).
+- Connectedness and uniqueness of paths: [[connectedness]], [[walk, trail, path, cycle]].
+- Components and forests: [[components (graph)]].
+- Degree facts and parity: [[degree]], [[handshake lemma]].
+- Results about cycles used in tree arguments: [[lemma - minimum degree 2 implies cycle]], [[lemma - walk contains path]].
+- Global metrics where trees appear as extremal examples: [[distance, diameter]].
 - As stated, every tree is [[theorem - bipartite characterization|bipartite]].
 - Examples and exercises referencing lecture material: `content/examples` (Definition 2.1.1; Lemma 2.1.3).

@@ -32,7 +32,7 @@
 > - A standard constructive proof produces a minimum vertex cover from a maximum matching using the alternating‑path / BFS exploration from unmatched vertices; this is the basis of the Kőnig algorithmic correspondence (often taught alongside the proof of Hall’s theorem).
 > - Together with Hall’s theorem, König–Egerváry provides several useful corollaries, for example that every $k$‑regular bipartite graph has a perfect matching.
 ### Relations
-- [[content/foundational/matching.md|matching]] and [[content/foundational/maximal matching, maximum matching.md|maximal/maximum matching]]
-- [[content/foundational/vertex cover.md|vertex cover]] and [[content/foundational/independent set.md|independent set]]
-- [[content/theorems, lemma/theorem - Hall's theorem (Theorem 3.1.11).md|Hall’s theorem (Theorem 3.1.11)]] — used in the proof
-- Algorithmic remark: see [[content/examples/example - blossom algorithm remark.md|blossom algorithm remark]] for matching algorithms (general graphs)
+- [[matching|matching]] and [[maximal matching, maximum matching|maximal/maximum matching]]
+- [[vertex cover|vertex cover]] and [[independent set|independent set]]
+- [[theorem - Hall's theorem (Theorem 3.1.11)|Hall’s theorem (Theorem 3.1.11)]] — used in the proof
+- Algorithmic remark: see [[example - blossom algorithm remark|blossom algorithm remark]] for matching algorithms (general graphs)

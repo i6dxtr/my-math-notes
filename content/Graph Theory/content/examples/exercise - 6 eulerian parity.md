@@ -16,6 +16,6 @@
 - The counterexample in (2) shows parity of $e(G)$ alone does not force the absence of odd cycles.
 
 ### Relations
-- Eulerian characterization: [[content/theorems, lemma/theorem - eulerian circuit condition.md]].
-- Parity and degree counting: [[content/foundational/handshake lemma.md]], [[content/foundational/degree.md]].
-- Bipartiteness and odd-cycle obstruction: [[content/theorems, lemma/theorem - bipartite characterization.md]].
+- Eulerian characterization: [[theorem - eulerian circuit condition]].
+- Parity and degree counting: [[handshake lemma]], [[degree]].
+- Bipartiteness and odd-cycle obstruction: [[theorem - bipartite characterization]].

@@ -23,6 +23,6 @@
 > Use this notation consistently for statements about edge counts, choices of vertex subsets, and combinatorial arguments (e.g. counting edges in complete graphs or selecting endpoint pairs). All math uses MathJax delimiters: $...$ for inline and $$...$$ for display math.
 
 ### Relations
-- Order and size: [[content/foundational/order, size.md]] (uses $\binom{n}{2}$ when counting edges of complete graphs).
-- Graph definition and complete graphs: [[content/foundational/graph.md]], [[content/foundational/clique.md]].
-- Exercises and combinatorial counting: [[content/examples/exercise - 1 degree pigeonhole.md]], [[content/examples/exercise - 8 hamiltonicity bounds.md]].
+- Order and size: [[order, size]] (uses $\binom{n}{2}$ when counting edges of complete graphs).
+- Graph definition and complete graphs: [[graph]], [[clique]].
+- Exercises and combinatorial counting: [[exercise - 1 degree pigeonhole]], [[exercise - 8 hamiltonicity bounds]].

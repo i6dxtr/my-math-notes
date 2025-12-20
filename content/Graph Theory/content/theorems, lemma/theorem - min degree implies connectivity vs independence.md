@@ -34,5 +34,5 @@
 > again a contradiction. Therefore $\alpha(G)\le\kappa(G)$, as required.
 Relations
 - See [[separating set, k-connectivity]] for definitions of $\kappa(G)$ and vertex cuts.
-- Related: [[content/theorems, lemma/theorem - Chvátal-Erdős Hamiltonicity condition.md]] (uses $\kappa(G)\ge\alpha(G)$ as a hypothesis).
-- See [[content/foundational/independent set.md]] for the independence number $\alpha(G)$.
+- Related: [[theorem - Chvátal-Erdős Hamiltonicity condition]] (uses $\kappa(G)\ge\alpha(G)$ as a hypothesis).
+- See [[independent set]] for the independence number $\alpha(G)$.

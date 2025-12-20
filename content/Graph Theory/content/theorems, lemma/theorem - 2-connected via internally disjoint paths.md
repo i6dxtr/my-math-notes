@@ -8,8 +8,7 @@
 > 
 > A constructive proof of (⇐) proceeds by induction on the distance $d(u,v)$ between $u$ and $v$ (see lecture notes): for adjacent vertices remove the edge $uv$ and find a $u,v$‑path in the remainder, producing two internally disjoint paths; for larger distances use an inductive argument by shortening paths and patching as needed.
 ### Relations
-- [[content/foundational/internally disjoint paths.md]] — Definition of internally disjoint paths.
-- [[content/theorems, lemma/theorem - equivalent conditions for 2-connected graphs.md]] — This characterization is one of the equivalent conditions for 2‑connectivity.
-- [[content/theorems, lemma/theorem - Menger / Menger-type equivalences.md]] — Strengthened versions of this statement appear in Menger/Mängel theorems for general $k$.
+- [[internally disjoint paths]] — Definition of internally disjoint paths.
+- [[theorem - equivalent conditions for 2-connected graphs]] — This characterization is one of the equivalent conditions for 2‑connectivity.
+- [[ Menger-type equivalences]] — Strengthened versions of this statement appear in Menger/Mängel theorems for general $k$.
   
-Source: Notes by date/10-29-25.md

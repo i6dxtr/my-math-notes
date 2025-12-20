@@ -12,7 +12,7 @@
 - Notes by date/9-26-25.md
 
 ### Relations
-- Algorithmic construction: [[content/graph structure/algorithm - breadth-first search (BFS).md]]
-- BFST definition: [[content/graph structure/definition - breadth-first search tree (BFST).md]]
-- Distance notions: [[content/foundational/distance, diameter.md]]
-- Paths and trees: [[content/graph structure/path.md]], [[content/foundational/tree.md]]
+- Algorithmic construction: [[algorithm - breadth-first search (BFS)]]
+- BFST definition: [[definition - breadth-first search tree (BFST)]]
+- Distance notions: [[distance, diameter]]
+- Paths and trees: [[path]], [[tree]]

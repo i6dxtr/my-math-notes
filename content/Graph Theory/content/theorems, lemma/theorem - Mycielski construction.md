@@ -13,6 +13,6 @@
 > 
 > One checks that $\omega(M(G))=\omega(G)$ and that $\chi(M(G))=\chi(G)+1$. Iterating this starting from $K_2$ (or an edge) produces for every $k\ge 2$ a graph with $\omega=2$ and $\chi=k$.
 Relations
-- See [[content/foundational/clique.md]] and [[content/foundational/chromatic number.md]].
-- Related example: [[content/examples/exercise - greedy coloring ordering.md]].
-- Source: Notes by date/11-19-25.md (lecture sketch).
+- See [[clique]] and [[chromatic number]].
+- Related example: [[exercise - greedy coloring ordering]].
+- 

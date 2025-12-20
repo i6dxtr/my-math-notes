@@ -16,6 +16,6 @@
 - The decomposition is into edge‑disjoint paths whose union is $E(F)$. In algorithms, finding such a decomposition can be done by repeatedly pairing odd vertices within components and removing connecting paths.
 
 ### Relations
-- Handshake Lemma and parity: [[content/foundational/handshake lemma.md]].
-- Trees and forests: [[content/foundational/tree.md]].
-- Paths and unique path property in trees: [[content/graph structure/path.md]], [[content/graph structure/walk, trail, path, cycle.md]].
+- Handshake Lemma and parity: [[handshake lemma]].
+- Trees and forests: [[tree]].
+- Paths and unique path property in trees: [[path]], [[walk, trail, path, cycle]].

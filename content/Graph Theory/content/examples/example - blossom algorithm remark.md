@@ -6,8 +6,7 @@
 > [!remark]
 > Do not treat this note as a full algorithm description. For implementation details and proofs of correctness refer to Edmonds' original paper on the blossom algorithm or standard algorithmic graph theory texts. This remark is intended to record the lecture pointer and provide links to the related concept notes.
 ### Relations
-- [[content/foundational/matching.md]] — Basic definitions: matchings, perfect matchings, augmenting paths.
-- [[content/theorems, lemma/theorem - Tutte's theorem.md]] — Tutte's theorem gives a structural characterization of perfect matchings; the blossom algorithm is the constructive procedure to find maximum matchings in practice.
-- [[content/theorems, lemma/corollary - number of vertices saturated by maximum matching (3.3.7).md]] — Practical algorithmic connection: after computing a maximum matching, the corollary quantifies saturation in terms of Tutte's obstruction parameter $d$.
+- [[matching]] — Basic definitions: matchings, perfect matchings, augmenting paths.
+- [[theorem - Tutte's theorem]] — Tutte's theorem gives a structural characterization of perfect matchings; the blossom algorithm is the constructive procedure to find maximum matchings in practice.
+- [[corollary - number of vertices saturated by maximum matching (3.3.7)]] — Practical algorithmic connection: after computing a maximum matching, the corollary quantifies saturation in terms of Tutte's obstruction parameter $d$.
 
-Source: Notes by date/10-22-25.md (lecture remark)

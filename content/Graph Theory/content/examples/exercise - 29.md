@@ -17,6 +17,6 @@ If $\Delta(G) \le k - 1,$ then $\chi(G) \le k \le k + \ell - 1$ as desired, so s
 
 
 Relations
-- [[content/examples/example - chromatic bound by edges.md]]
-- [[content/theorems, lemma/corollary - Erdös-Szekeres subsequence.md]]
-- [[content/theorems, lemma/theorem - Mycielski construction.md]]
+- [[example - chromatic bound by edges]]
+- [[corollary - Erdös-Szekeres subsequence]]
+- [[theorem - Mycielski construction]]

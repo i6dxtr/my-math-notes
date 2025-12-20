@@ -8,7 +8,7 @@ Remarks
 - Use this example when contrasting general graphs with bipartite graphs in matching/cover relations.
 
 Relations
-- [[content/foundational/matching.md]] — Maximum matching, $\alpha'(G)$
-- [[content/foundational/vertex cover.md]] — Vertex cover, $\beta(G)$
-- [[content/theorems, lemma/theorem - Hall's theorem (Theorem 3.1.11).md]] — Context on matching existence in bipartite graphs
-- [[content/theorems, lemma/theorem - Cantor-Schroeder-Bernstein.md]] — Related matching constructions
+- [[matching]] — Maximum matching, $\alpha'(G)$
+- [[vertex cover]] — Vertex cover, $\beta(G)$
+- [[theorem - Hall's theorem (Theorem 3.1.11)]] — Context on matching existence in bipartite graphs
+- [[theorem - Cantor-Schroeder-Bernstein]] — Related matching constructions

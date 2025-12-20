@@ -26,6 +26,6 @@
 > 
 > Let $S \subseteq X.$ If $|S| \le n/2,$ then since $\delta(G) \ge n/2,$ we have $|N(S)| \ge n/2 \ge |S|.$ So suppose $|S| > n/2.$ But now for all $y \in Y,$ $|N(y) \cap S| \ge |N(y)| + |S| - |X| > 0,$ so $|N(S)| = |Y| \ge |S|.$ Thus there is a matching saturating $X$ and since $G$ is balanced this is a perfect matching. $\square$
 Relations
-- [[content/foundational/matching.md]]
-- [[content/theorems, lemma/theorem - Hall's theorem (Theorem 3.1.11).md]]
-- [[content/theorems, lemma/theorem - König–Egerváry (1931).md]]
+- [[matching]]
+- [[theorem - Hall's theorem (Theorem 3.1.11)]]
+- [[theorem - König–Egerváry (1931)]]

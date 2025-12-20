@@ -10,6 +10,6 @@ Note that since $G$ is $k$ connected, $G$ has at least $k+1$ vertices. Let $G'$ 
 
 
 Relations
-- [[content/theorems, lemma/theorem - 2-connected via internally disjoint paths.md]]
-- [[content/theorems, lemma/theorem - Menger / Menger-type equivalences.md]]
-- [[content/foundational/separating set, connectivity.md]]
+- [[theorem - 2-connected via internally disjoint paths]]
+- [[ Menger-type equivalences]]
+- [[separating set, connectivity]]

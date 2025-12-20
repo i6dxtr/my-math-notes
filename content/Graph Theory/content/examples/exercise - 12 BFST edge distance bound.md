@@ -12,6 +12,6 @@
 - Notes by date/9-26-25.md, 9-28-25.md
 
 ### Relations
-- BFST notion: [[content/graph structure/definition - breadth-first search tree (BFST).md]]
-- BFS algorithm and distance preservation: [[content/graph structure/algorithm - breadth-first search (BFS).md]], [[content/theorems, lemma/theorem - BFS preserves distances (Theorem 2.3.8).md]]
-- Distances: [[content/foundational/distance, diameter.md]]
+- BFST notion: [[definition - breadth-first search tree (BFST)]]
+- BFS algorithm and distance preservation: [[algorithm - breadth-first search (BFS)]], [[theorem - BFS preserves distances (Theorem 2.3.8)]]
+- Distances: [[distance, diameter]]

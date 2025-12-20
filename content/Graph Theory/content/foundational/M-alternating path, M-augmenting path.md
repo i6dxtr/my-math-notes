@@ -18,6 +18,6 @@
 - Notes by date/9-28-25.md
 
 ### Relations
-- Base matching notions: [[content/foundational/matching.md]]
-- Maximal vs maximum: [[content/foundational/maximal matching, maximum matching.md]]
-- Path notions: [[content/graph structure/path.md]], [[content/graph structure/walk, trail, path, cycle.md]]
+- Base matching notions: [[matching]]
+- Maximal vs maximum: [[maximal matching, maximum matching]]
+- Path notions: [[path]], [[walk, trail, path, cycle]]

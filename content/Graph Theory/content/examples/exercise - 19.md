@@ -15,6 +15,6 @@ By Lemma 3.1.21 and the assumption, we have $n - \alpha(G) = \beta(G) = 2\alpha'
 
 
 Relations
-- [[content/theorems, lemma/corollary - number of vertices saturated by maximum matching (3.3.7).md]]
-- [[content/foundational/independent set.md]]
-- [[content/foundational/odd components.md]]
+- [[corollary - number of vertices saturated by maximum matching (3.3.7)]]
+- [[independent set]]
+- [[odd components]]

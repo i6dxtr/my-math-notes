@@ -11,8 +11,8 @@
 
 ### Relations
 - Components are built on the notion of [[connectedness]].
-- Formally characterized by [[content/theorems, lemma/lemma - connectivity equivalence relation.md|lemma - connectivity equivalence relation]].
-- Removing vertices/edges (see [[content/graph structure/vertex & edge deletion.md|vertex & edge deletion]]) can increase the number of components.
+- Formally characterized by [[lemma - connectivity equivalence relation|lemma - connectivity equivalence relation]].
+- Removing vertices/edges (see [[vertex & edge deletion|vertex & edge deletion]]) can increase the number of components.
 - Useful when reasoning about distances, diameter, and when applying structural theorems component‑wise.
 - Components and their parity (odd/even order) play a key role in matching theory and Tutte's condition; see [[odd components]] and [[Tutte's theorem]].
-- Components are also important when analyzing edge-connectivity and cut-edges/cut-vertices ([[content/graph structure/cut-vertex, cut-edge.md|cut-vertex, cut-edge]], [[content/foundational/disconnecting set, edge-connectivity.md|disconnecting set, edge-connectivity]]).
+- Components are also important when analyzing edge-connectivity and cut-edges/cut-vertices ([[cut-vertex, cut-edge|cut-vertex, cut-edge]], [[disconnecting set, edge-connectivity|disconnecting set, edge-connectivity]]).

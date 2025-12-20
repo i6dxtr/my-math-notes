@@ -11,8 +11,8 @@
 - Notes by date/9-26-25.md
 
 ### Relations
-- Construction procedure: [[content/graph structure/algorithm - breadth-first search (BFS).md]]
-- Distance preservation statement: [[content/theorems, lemma/theorem - BFS preserves distances (Theorem 2.3.8*).md]]
-- Distances and metrics on graphs: [[content/foundational/distance, diameter.md]]
-- Trees and spanning trees: [[content/foundational/tree.md]]
-- Connectivity basics: [[content/graph structure/connectedness.md]]
+- Construction procedure: [[algorithm - breadth-first search (BFS)]]
+- Distance preservation statement: [[theorem - BFS preserves distances (Theorem 2.3.8*)]]
+- Distances and metrics on graphs: [[distance, diameter]]
+- Trees and spanning trees: [[tree]]
+- Connectivity basics: [[connectedness]]

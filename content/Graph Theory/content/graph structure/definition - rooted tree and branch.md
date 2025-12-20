@@ -11,6 +11,6 @@
 - Notes by date/9-28-25.md (branch notion; corrected incomplete sentence)
 
 ### Relations
-- DFS process and output: [[content/graph structure/algorithm - depth-first search (DFS).md]], [[content/graph structure/definition - depth-first search tree (DFST).md]]
-- Same-branch property (DFS): [[content/theorems, lemma/lemma - DFST edge endpoints on same branch (Lemma 4.1.22).md]]
-- Trees and spanning trees: [[content/foundational/tree.md]]
+- DFS process and output: [[algorithm - depth-first search (DFS)]], [[definition - depth-first search tree (DFST)]]
+- Same-branch property (DFS): [[lemma - DFST edge endpoints on same branch (Lemma 4.1.22)]]
+- Trees and spanning trees: [[tree]]

@@ -14,6 +14,6 @@
 > By definition $\lambda(X,Y)\le\kappa(X,Y)$: each $X,Y$-path must meet a barrier, so a barrier has to contain at least one vertex from each path in a maximum family of disjoint $X,Y$-paths.
 
 Relations
-- See [[content/foundational/X,Y-paths and fans.md]] for the definition of an $X,Y$-path and fans.
-- Related theorem: [[content/theorems, lemma/theorem - Menger local sets (Pym 1969).md]] (states $\lambda(X,Y)=\kappa(X,Y)$).
-- Use in connectivity statements: [[separating set, k-connectivity]] and [[content/theorems, lemma/theorem - Menger / Menger-type equivalences.md]].
+- See [[X,Y-paths and fans]] for the definition of an $X,Y$-path and fans.
+- Related theorem: [[theorem - Menger local sets (Pym 1969)]] (states $\lambda(X,Y)=\kappa(X,Y)$).
+- Use in connectivity statements: [[separating set, k-connectivity]] and [[ Menger-type equivalences]].

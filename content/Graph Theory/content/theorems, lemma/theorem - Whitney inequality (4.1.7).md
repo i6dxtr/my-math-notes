@@ -19,8 +19,7 @@
 > Combining the two inequalities yields $\kappa(G)\le \kappa'(G)\le \delta(G)$.
 ### Relations
 - [[separating set, k-connectivity]] — Definition of $\kappa(G)$ and separating sets.
-- [[content/foundational/disconnecting set, edge-connectivity.md]] — Definition of $\kappa'(G)$ and edge cuts.
-- [[content/theorems, lemma/lemma - minimal disconnecting set is edge cut.md]] — Used to pass from a minimum edge cut to a vertex separating set in the second inequality.
-- [[content/foundational/degree.md]] — Use of minimum degree $\delta(G)$ in the first inequality.
+- [[disconnecting set, edge-connectivity]] — Definition of $\kappa'(G)$ and edge cuts.
+- [[lemma - minimal disconnecting set is edge cut]] — Used to pass from a minimum edge cut to a vertex separating set in the second inequality.
+- [[degree]] — Use of minimum degree $\delta(G)$ in the first inequality.
 
-Source: Notes by date/10-27-25.md

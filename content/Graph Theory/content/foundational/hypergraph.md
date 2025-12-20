@@ -6,8 +6,8 @@
 > A hypergraph is $k$-uniform if every hyperedge has size $k$, i.e. $\mathcal{E}\subseteq \binom{V}{k}$. In particular, a $2$-uniform hypergraph is the same thing as an (undirected) simple graph. ![[Pasted image 20250920190216.png]]
 
 > [!remark]
-> Hypergraphs generalize graphs by allowing edges that join more than two vertices. Many graph-theoretic definitions extend to hypergraphs but require care (e.g. paths and cycles have multiple non-equivalent generalizations). For combinatorial counting, refer to [[content/foundational/notation - combinatorics.md]].
+> Hypergraphs generalize graphs by allowing edges that join more than two vertices. Many graph-theoretic definitions extend to hypergraphs but require care (e.g. paths and cycles have multiple non-equivalent generalizations). For combinatorial counting, refer to [[notation - combinatorics]].
 
 ### Relations
-- Undirected graphs as $2$-uniform hypergraphs: [[content/foundational/graph.md]].
-- Notation for $k$-subsets and power set: [[content/foundational/notation - combinatorics.md]].
+- Undirected graphs as $2$-uniform hypergraphs: [[graph]].
+- Notation for $k$-subsets and power set: [[notation - combinatorics]].

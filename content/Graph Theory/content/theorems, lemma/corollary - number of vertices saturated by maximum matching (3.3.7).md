@@ -23,8 +23,7 @@
 > 
 > Thus $G'$ satisfies Tutte's condition and, by Tutte's theorem, $G'$ has a perfect matching $M'$. Restricting $M'$ to edges with both endpoints in $V(G)$ yields a matching $M$ in $G$ that saturates at least $n-d$ vertices. Combined with the upper bound above, this shows a maximum matching saturates exactly $n-d$ vertices.
 ### Relations
-- [[content/theorems, lemma/theorem - Tutte's theorem.md]] — Uses Tutte's theorem to produce a perfect matching in the augmented graph $G'$.
-- [[content/theorems, lemma/lemma - parity lemma (Tutte).md]] — Parity is used to ensure $|V(G')|$ is even when adding $d$ vertices.
-- [[content/foundational/matching.md]] — Connects the corollary to the standard definitions of saturation, maximum and perfect matchings.
+- [[theorem - Tutte's theorem]] — Uses Tutte's theorem to produce a perfect matching in the augmented graph $G'$.
+- [[lemma - parity lemma (Tutte)]] — Parity is used to ensure $|V(G')|$ is even when adding $d$ vertices.
+- [[matching]] — Connects the corollary to the standard definitions of saturation, maximum and perfect matchings.
 
-Source: Notes by date/10-22-25.md

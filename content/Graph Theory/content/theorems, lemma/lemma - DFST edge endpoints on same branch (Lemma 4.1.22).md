@@ -8,7 +8,7 @@
 > 
 > The DFS rule always continues from the most recently discovered vertex that still has an unexplored neighbor. Thus, the search will exhaustively explore along the branch containing $u$ before backtracking to any ancestor of $u$. Since $uv\in E(G)$, the moment the search backtracks to $u$ (or an ancestor on the path $x\to u$) with $v$ still unexplored, $v$ will be discovered from that branch and added as a descendant along the same $x$-branch. Therefore the path in $T$ from $x$ to $v$ contains $u$, and $u$ and $v$ lie on the same $x$-branch.
 ### Relations
-- DFS procedure and tree: [[content/graph structure/algorithm - depth-first search (DFS).md]], [[content/graph structure/definition - depth-first search tree (DFST).md]]
-- Rooted tree and branch notion: [[content/graph structure/definition - rooted tree and branch.md]]
-- Basic path/walk notions: [[content/graph structure/walk, trail, path, cycle.md]], [[content/graph structure/path.md]]
-- BFS contrast (distance layering): [[content/graph structure/algorithm - breadth-first search (BFS).md]], [[content/graph structure/definition - breadth-first search tree (BFST).md]], [[content/theorems, lemma/theorem - BFS preserves distances (Theorem 2.3.8).md]]
+- DFS procedure and tree: [[algorithm - depth-first search (DFS)]], [[definition - depth-first search tree (DFST)]]
+- Rooted tree and branch notion: [[definition - rooted tree and branch]]
+- Basic path/walk notions: [[walk, trail, path, cycle]], [[path]]
+- BFS contrast (distance layering): [[algorithm - breadth-first search (BFS)]], [[definition - breadth-first search tree (BFST)]], [[theorem - BFS preserves distances (Theorem 2.3.8)]]

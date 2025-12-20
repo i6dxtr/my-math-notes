@@ -14,9 +14,9 @@
 > 
 > Therefore the desired smallest integer is $d=3$.
 ### Remarks
-- The full textbook proof proceeds by choosing a vertex and partitioning by distance then analysing missing edges which become edges of the complement; see the discussion in [[content/foundational/distance, diameter.md]].
+- The full textbook proof proceeds by choosing a vertex and partitioning by distance then analysing missing edges which become edges of the complement; see the discussion in [[distance, diameter]].
 - The statement is often phrased as: for every finite graph $G$, either $\operatorname{diam}(G)\le 3$ or $\operatorname{diam}(\overline G)\le 3$.
 
 ### Relations
-- Distance and diameter definitions: [[content/foundational/distance, diameter.md]].
-- Complement graphs: [[content/foundational/graph complement.md]].
+- Distance and diameter definitions: [[distance, diameter]].
+- Complement graphs: [[graph complement]].

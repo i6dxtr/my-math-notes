@@ -11,6 +11,6 @@
 > This file records the standard notion of a multigraph used in lectures. No proof required.
 
 ### Relations
-- Compare with simple graphs: [[content/foundational/graph.md]].
-- Degree conventions and parity: [[content/foundational/degree.md]], [[content/foundational/handshake lemma.md]].
-- For exercises that mention multigraphs explicitly: see [[content/examples/exercise - 3 closed odd walk.md]].
+- Compare with simple graphs: [[graph]].
+- Degree conventions and parity: [[degree]], [[handshake lemma]].
+- For exercises that mention multigraphs explicitly: see [[exercise - 3 closed odd walk]].
