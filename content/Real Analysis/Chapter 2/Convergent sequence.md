@@ -1,0 +1,96 @@
+#ch2 
+##### Relations
+- [[Sequence]]
+- [[Monotone sequence]]
+- [[Metric (space)]]
+
+---
+### Convergent sequences / Limits
+> [!definition]
+> Let $( X, d )$ be a [[Metric (space)|metric space]]. A [[sequence]] $( X_{n} )_{n\ge 1}$ in $X$ is **convergent** if there exists an $L\in X$ where *for every $\varepsilon>0$, there exists a $n_{0}=n_{0}\left( \varepsilon \right)$ such that $x_{n}\in N_{\varepsilon}( L )$ for all $n\ge n_{0}$.*
+> In this case, $L$ is called the **limit** of $( X_{n} )_{n\ge 1}$. 
+> - ==Notation.== $\lim_{n \to \infty}x_{n}=L$.
+> [!remark]
+> For all $\varepsilon > 0$, there exists $n_{0}=n_{0}( \varepsilon )$, ie. *$n_{0}$ depends on $\varepsilon$.* $$d( x_{n}, L )<\varepsilon.$$
+#### Examples
+> [!example]
+> ##### In $\mathbb{R}$:
+> $( x_{n} )_{n\ge 1}$ is a sequence of real numbers, and $L$ is in $\mathbb{R}$. $$\begin{align} \lim_{n \to \infty}x_{n}=L\longleftrightarrow\forall\varepsilon>0,\ \exists n_{0}=n_{0}( \varepsilon ) \ \underline{\text{s.t.}}\\ \forall n\ge n_{0}, \lvert x_{n}-L \rvert<\varepsilon \end{align}$$
+> 
+> ---
+> 
+> ##### $\lim_{n \to \infty}\frac{1}{n}=0.$
+> - Let $\varepsilon>0$
+> - We show $\left\lvert  \frac{1}{n}-0  \right\rvert<\varepsilon$  *ie*. $\frac{1}{n}<\varepsilon$
+> 	- Suppose $\frac{1}{\varepsilon}<m$
+> 		- Then $\left\lfloor  \frac{1}{\varepsilon}  \right\rfloor+1=n_{0}$ for $n\ge n_{0}$, $\frac{1}{n}<\varepsilon$
+> 	- Suppose $\lfloor a \rfloor=n$
+> 		- Then $a=n...$
+> 		- So $\frac{1}{n}<\varepsilon$
+> - could also use Archimedean
+> 
+> ---
+> 
+> ##### $\lim_{n \to \infty}\frac{2n+1}{3n+5}=\frac{2}{3}$
+> $$\begin{align} \left\lvert  \frac{2n+1}{3n+5} - \frac{2}{3} \right\rvert &= \left\lvert  \frac{6n+3-6n-10}{3( 3n+5 )}  \right\rvert \\ &=\frac{7}{9n+15} \\ &\le \frac{7}{9n} \\ &\le \frac{1}{n}. \end{align}$$
+> 
+> - For $\varepsilon>0$, choose $n_{0}$ such that $\frac{1}{n}<\varepsilon$ for all $n\ge n_{0}$
+> 	- such an $n_{0}$ exists from the previous example
+> - For $n\ge n_{0}$, $$\left\lvert  \frac{2n+1}{3n+5}-\frac{2}{3}  \right\rvert <\varepsilon.$$
+### Theorems
+> [!theorem]
+> Every convergent sequence is bounded.
+> [!remark]
+> - $( x_{n} )_{n\ge 1}$ is bounded if $\left\{ x_{n}, n\ge 1 \right\}$ is bounded
+> - $( x_{n} )_{n\ge 1}$ is bounded if $\exists M$ such that $\lvert x_{n} \rvert\le M$.
+> [!proof]
+> - Assume that $( x_{n} )_{n\ge 1}$ is convergent and $\lim_{n \to \infty}x_{n}=L$.
+> - Let $\varepsilon=1$
+> - Then there exists $n_{0}$ such that $\forall n\ge n_{0}$, $\lvert x_{n}-L \rvert<1$
+> 	- $\forall n\ge n_{0}$, $\lvert x_{n} \rvert\le L+1$
+> 	- ==fig 2==
+> - For all $n\ge 1$, $\lvert x_{n} \rvert\le \text{max}\left\{ \lvert x_{1} \rvert, \lvert x_{2} \rvert, ..., x_{n_{0}-1}, L+1 \right\}$
+> 	- $=M$
+> [!theorem]
+> Let $( a_{n} )_{n\ge1}$ and $( b_{n} )_{n\ge 1}$ be convergent sequences. $$\begin{align} 1.)&& \lim_{n \to \infty}a_{n}+b_{n}&=\lim_{n \to \infty}a_{n}+\lim_{n \to \infty}b_{n} \\ 2.)&& \lim_{n \to \infty}a_{n}b_{n} &=( \lim_{n \to \infty}a_{n} )( \lim_{n \to \infty}b_{n} ) \\ 3.)&& \lim_{n \to \infty}\frac{a_{n}}{b_{n}}&=\frac{\lim_{n \to \infty}a_{n}}{\lim_{n \to \infty}b_{n}}&&...\text{ if }\lim_{n \to \infty}b_{n}\ne0. \end{align}$$
+> [!proof]
+> ##### of 2.
+> - Let $\lim_{n \to \infty}a_{n}=a$ where $a\ne 0$ 
+> - Let $\lim_{n \to \infty}b_{n}=b$ where $b\ne 0$
+> - Then: $$\begin{align} \lvert a_{n}b_{n}-ab \rvert &=\lvert a_{n}b_{n}-ab_{n}+ab_{n}-ab \rvert \\ &\le \lvert a_{n}-a \rvert \lvert b_{n} \rvert +\lvert b_{n}-b \rvert \lvert a \rvert \end{align}$$... or $\le \frac{\varepsilon}{2}+\frac{\varepsilon}{2}$?
+> - We want $\lvert b_{n}-b \rvert\ \lvert a \rvert<\frac{\varepsilon}{2}$ $\longleftrightarrow \lvert b_{n}-b \rvert<\frac{\varepsilon}{2\lvert a \rvert}=\varepsilon'$
+> - use the definition with $\varepsilon'$
+> 	- $\exists n_{0}$ such that $\forall n\ge n_{0}$, $\lvert b_{n}-b \rvert<\varepsilon'$
+> 		- $\longrightarrow \lvert b_{n}-b \rvert\ \lvert a \rvert<\frac{\varepsilon}{2}$
+> - Since $( b_{n} )$ is convergent, it is bounded
+> - $\exists M$ such that $\lvert b_{n} \rvert\le M$
+> 	- $\lvert a_{n}-a \rvert\ \lvert b_{n} \rvert\le \lvert a_{n} -a\rvert M$
+> - $\exists n_{1}$ such that $\forall n\ge n_{1}$, $\lvert a_{n}-a \rvert< \frac{\varepsilon}{2M}$.
+> 	- $\longrightarrow \lvert a_{n}-a \rvert\ \lvert b_{n} \rvert<\frac{\varepsilon}{2}$
+> - Let $N=\text{max}( n_{0}, n_{1} )$ where $n\ge N$
+> - Then: $$\lvert a_{n}b_{n} - ab \rvert \le \lvert a_{n}-a \rvert \ \lvert b_{n} \rvert + \lvert b_{n}-b \rvert \ \lvert a \rvert <\varepsilon$$... or $\cdots \le \frac{\varepsilon}{2}+\frac{\varepsilon}{2}$.
+> [!theorem]
+> Let $\left\{ a_{n} \right\}$ and $\left\{ b_{n} \right\}$ be sequences in $\mathbb{R}$ with:
+> 1. $\lim_{n \to \infty}a_{n}=0$
+> 2. $\left\{ b_{n} \right\}$ is bounded
+> Then the following holds: $$\lim_{n \to \infty}a_{n}b_{n}=0.$$
+> [!proof]
+> - Fix $M$ such that $\lvert b_{n} \rvert\le M$ for all $n\ge 1$
+> - Estimate: $$\lvert a_{n}b_{n}-0 \rvert=\lvert a_{n}b_{n} \rvert=\lvert a_{n} \rvert\lvert b_{n} \rvert\le \lvert a_{n} \rvert M.$$
+> - WTS $\lvert a_{n} \rvert M \le \varepsilon$
+> - Let $\varepsilon > 0$
+> - Use definition of $\lim_{n \to \infty}a_{n}=0$ with $\frac{\varepsilon}{M}$
+> 	- There exists an $n_{0}$ such that $n\ge n_{o}$
+> 	- Implying $\lvert a_{n}b_{n} \rvert\le \lvert a_{n} \rvert M\le \frac{\varepsilon}{M}$
+> 		- where $M=\varepsilon$ 
+> 		- for $n\ge n_{o}$
+> 	- So $\lim_{n \to \infty}a_{n}b_{n}=0$. **qed**
+> [!theorem]
+> Suppose $\left\{ a_{n} \right\}, \left\{ b_{n} \right\}, \left\{ c_{n} \right\}$ are sequences in $\mathbb{R}$ and assume that there exists an $n_{0}$ such that for every $n\le n_{0}$, the following holds: $$a_{n}\le C_{n}\le b_{n}$$... and that: $$\lim_{n \to \infty}a_{n}=\lim_{n \to \infty}b_{n}=L$$... then the following is also true: $$\lim_{n \to \infty}C_{n}=L.$$
+> [!proof]
+> - Let $\varepsilon>0$
+> - There exists $N_{1}$ such that for every $n\ge N_{1}$... $$a_{n}\in  N_{\varepsilon}( L )$$
+> - There exists $n_{2}$ such that for every $n\ge n_{2}$... $$b_{n}\in  N_{\varepsilon}( L )$$
+> - Let $k=\text{max}( n_{0}, n_{1}, n_{2} )$
+> 	- If $n\ge k$ then $a_{n}\le c_{n}\le b_{n}<L+\varepsilon$
+> 	- If $n\ge k$ then $L-\varepsilon \le$ (...)
