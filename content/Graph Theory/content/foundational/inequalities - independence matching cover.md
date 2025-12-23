@@ -33,9 +33,10 @@
 > [!proof]
 > If $A\subseteq V(G)$ is independent then $V(G)\setminus A$ is a vertex cover (every edge has at least one endpoint outside $A$), hence $\beta(G)\le n(G)-\alpha(G)$. Conversely, if $Q$ is a vertex cover then $V(G)\setminus Q$ is independent, so $\alpha(G)\ge n(G)-\beta(G)$. Combining the two inequalities yields the identity.
 
+---
+
 > [!remark]
 > This identity is often presented as a simple duality: independent sets and vertex covers are complements.
-
 > [!theorem]
 > ### Matching vs vertex cover (general inequality)
 > For every graph $G$,
@@ -47,9 +48,10 @@
 > Left inequality ($\alpha'(G)\le\beta(G)$). Every vertex cover must contain at least one endpoint of each edge of any matching, so a cover has size at least the matching size.
 > 
 > Right inequality ($\beta(G)\le 2\alpha'(G)$). Let $M$ be a maximal matching (not necessarily maximum). The set $Q$ of all endpoints of edges in $M$ has size $2|M|$ and is a vertex cover: if an edge $e$ has both endpoints unsaturated by $M$, then $M\cup\{e\}$ would be a larger matching contradicting maximality. Taking $M$ as a maximum matching gives the bound $\beta(G)\le 2\alpha'(G)$.
-
 > [!remark]
 > The left inequality is tight in bipartite graphs (by König–Egerváry); the right inequality is tight for graphs composed of disjoint triangles (each triangle has $\alpha'=1$ and $\beta=2$).
+
+---
 
 > [!theorem]
 > ### Matching and edge cover identity
@@ -64,6 +66,8 @@
 
 > [!remark]
 > When a perfect matching exists ($\alpha'(G)=n/2$), a perfect matching is itself a minimum edge cover and $\beta'(G)=n/2$.
+
+---
 
 > [!remark]
 > Bipartite exactness — König–Egerváry theorem:
