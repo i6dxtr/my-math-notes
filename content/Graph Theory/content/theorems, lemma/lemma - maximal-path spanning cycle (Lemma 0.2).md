@@ -8,6 +8,7 @@
 > 
 > ---
 > **(ii).** For all $1\le k\le \frac{n-1}{2}$, if $G$ is connected and $\delta(G)\ge k$, then $G$ contains a path with at least $2k+1$ vertices.
+
 > [!proof]
 > **(i).** Let $P=x_1x_2\ldots x_\ell$ be a maximal path with $\ell\le 2\delta(G)$. Set
 > $$
@@ -26,6 +27,10 @@
 > 
 > ---
 > **(ii).** Suppose $G$ is connected and $\delta(G)\ge k$ but every path has fewer than $2k+1$ vertices. Let $P$ be a maximum-length path; then $|V(P)|\le 2k$. By part (i) the subgraph induced by $V(P)$ contains a spanning cycle. Since $G$ is connected and $|V(P)|\le n-1$, there is an edge from some vertex of the cycle to $V(G)\setminus V(P)$, and following that edge yields a path longer than $P$, contradicting maximality. Therefore $G$ contains a path with at least $2k+1$ vertices.
+
+
+
+
 ### Source
 - Notes by date/9-12-25.md (figures referenced)
 

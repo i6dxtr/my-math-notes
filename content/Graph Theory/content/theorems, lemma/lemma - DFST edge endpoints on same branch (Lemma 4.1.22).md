@@ -1,8 +1,8 @@
-#lemma 
 > [!theorem]
 > ### Lemma — DFST edge endpoints lie on the same branch (Lemma 4.1.22)
 > Given a connected graph $G$ and a root $x\in V(G)$, the DFS algorithm (Algorithm 4.1.21) produces a spanning tree $T$ rooted at $x$ such that for every $uv\in E(G)$ with $u,v\in V(T)$, the vertices $u$ and $v$ lie on the same $x$-branch of $T$ (i.e., there exists a path $P$ in $T$ from $x$ to a leaf with $u,v\in V(P)$).
 > ![[Pasted image 20250929134924.png|300]]
+
 > [!proof]
 > Let $T$ be the spanning tree created by DFS. Without loss of generality, suppose the algorithm first discovers $u$ (before $v$). At that moment there is a path in $T$ from $x$ to $u$ which does not contain $v$.
 > 

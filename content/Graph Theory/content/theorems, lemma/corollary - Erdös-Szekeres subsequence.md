@@ -1,6 +1,7 @@
 > [!corollary]
 > ### Erdős–Szekeres subsequence (1935)
 > Let $r,s$ be non-negative integers. In every sequence of distinct real numbers of length $rs+1$, there exists an increasing subsequence of length $r+1$ or a decreasing subsequence of length $s+1$.
+
 > [!proof]
 > Label the sequence $a_1,a_2,\dots,a_{rs+1}$ and construct a tournament on these $rs+1$ elements by orienting $(a_i,a_j)$ if $a_i<a_j$. Call an oriented edge $(a_i,a_j)$ forward if $i<j$ and backward otherwise. Let $D_F$ be the digraph of forward edges and $D_B$ be that of backward edges.
 > 

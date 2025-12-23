@@ -1,6 +1,7 @@
 > [!corollary]
 > ### Corollary 3.3.8 *(Petersen 1891)*
 > Every $3$‑regular graph with no cut‑edge has a perfect matching.
+
 > [!proof]
 > We show the graph $G$ satisfies Tutte's condition, hence by Tutte's theorem $G$ has a perfect matching.
 > 

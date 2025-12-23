@@ -5,12 +5,13 @@
 > d \;=\; \max\{\,o(G-S)-|S| : S\subseteq V(G)\,\}.
 > $$
 > Then the number of vertices of $G$ saturated by a maximum matching in $G$ is exactly $n-d$.
+
 > [!proof]
 > First note $d\ge 0$ because taking $S=\emptyset$ gives $o(G)-0\ge 0$.
 > 
 > Lower bound on unsaturated vertices. For any $S\subseteq V(G)$, every matching leaves at least $o(G-S)-|S|$ vertices unsaturated: each odd component of $G-S$ requires at least one vertex unmatched to $S$. Taking the maximum over $S$ shows every matching leaves at least $d$ vertices unsaturated, so every matching saturates at most $n-d$ vertices.
 > 
-> Existence (achievability). Let $K$ be a set of $d$ new vertices and form $G'$ by adding $K$ to $G$ and joining every vertex of $K$ to every vertex of $V(G)\cup K$ (i.e. make $K$ universal and clique among themselves). By the parity lemma, $n$ and $d$ have the same parity, so $|V(G')|=n+d$ is even.
+> *Existence (achievability)*. Let $K$ be a set of $d$ new vertices and form $G'$ by adding $K$ to $G$ and joining every vertex of $K$ to every vertex of $V(G)\cup K$ (i.e. make $K$ universal and clique among themselves). By the parity lemma, $n$ and $d$ have the same parity, so $|V(G')|=n+d$ is even.
 > 
 > We claim $G'$ satisfies Tutte's condition. Let $S\subseteq V(G')$ and consider two cases.
 > 

@@ -1,4 +1,3 @@
-#lemma 
 
 > [!corollary]
 > ### Lemma 0.1.
