@@ -1,0 +1,18 @@
+{
+    "sourceFile": "content/Linear Algebra/MOC - Linear Algebra.md",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1783886309908,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1783886309908,
+            "name": "Commit-0",
+            "content": "#moc\n\n### Map of Content -- Linear Algebra\nNotes for MTH 433, covering computational linear algebra from solving linear systems through orthogonality, spectral methods, and applications in Python.\n\n#### Solving linear systems\n- **Chapter 1.** [[Systems of Linear Equations]]: [[Gaussian Elimination]], [[Row Operations]], [[Row Echelon Form]], [[Matrix]] & [[Matrix Operations]], [[nonsingular]] matrices, [[Image Operations|image applications]]\n\n#### Vector spaces\n- **Chapter 2.** [[Vector Space|Vector Spaces]]: [[Subspaces]], [[span]], [[linear independence]], [[basis]], [[dimension]]; [[column space]], [[row space]], [[kernel space]], [[basis for null space]], the [[superposition principle]]\n\n#### Orthogonality\n- **Chapter 3.** [[Dot Product]] & [[Orthogonality]]: [[norm]], the [[triangle inequality]], [[geometric rep. of inner products|geometric interpretation of inner products]]\n- **Chapter 4.** [[Gram-Schmidt Process]]: [[orthogonal bases]], [[orthogonal matrices]], [[orthogonal projections]], [[orthogonal subspaces]], [[QR factorization]]; see also [[(im)proper orthogonal matrix|(im)proper orthogonal matrices]]\n\n#### Spectral methods & decompositions\n- **Chapter 5.** [[fourier analysis|Fourier Analysis]]\n- **Chapter 8.** [[Singular Value Decomposition]]\n\n#### Applications\n- [[Python]] reference for course computations\n- [[pca documentation|PCA for baseball player clustering]] -- course project info"
+        }
+    ]
+}
