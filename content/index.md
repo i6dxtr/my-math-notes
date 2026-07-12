@@ -37,9 +37,9 @@ Notes covering foundational analysis concepts including properties of real numbe
 *   **Entry Point:** [[MOC - Real Analysis|Map of Content]]
 *   **Key Topics:** Least Upper Bound Property, Metric Spaces, Convergence, Continuity, Compactness, Riemann Integral.
 
-### [[MOC - Linear Algebra|Linear Algebra]]
+### [[MOC - Applied Linear Algebra|Applied Linear Algebra]]
 Notes for MTH 433, covering computational linear algebra: linear systems, vector spaces, orthogonality, Fourier analysis, and the SVD, with applications in Python.
-*   **Entry Point:** [[MOC - Linear Algebra|Map of Content]]
+*   **Entry Point:** [[MOC - Applied Linear Algebra|Map of Content]]
 *   **Key Topics:** Gaussian Elimination, Vector Spaces, Gram-Schmidt & QR, Orthogonal Projections, Fourier Analysis, Singular Value Decomposition, PCA.
 
 ---
