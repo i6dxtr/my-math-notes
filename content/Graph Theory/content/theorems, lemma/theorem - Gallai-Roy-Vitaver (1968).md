@@ -2,6 +2,7 @@
 > ### Theorem (Gallai–Roy–Vitaver 1968)
 > Let $D$ be an orientation of a graph $G$ and let $l(D)$ be the length (number of edges) of a longest directed path in $D$. Then
 > $$\chi(G)\le l(D)+1.$$ Moreover, equality holds for some orientation of $G$.
+
 > [!proof]
 > Let $D$ be any orientation of $G$ and let $D'$ be a maximal acyclic subdigraph of $D$ (i.e. $D'$ is acyclic and adding any edge from $E(D)\setminus E(D')$ creates a directed cycle). Note $l(D')\le l(D)$.
 > 

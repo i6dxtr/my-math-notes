@@ -1,6 +1,7 @@
 #ch4
 > [!definition]
 > Assume that $f$ has an antiderivative $F$ on $\left[ a,b \right],$ meaning $f\in R\left[ a,b \right].$ Then the following holds: $$\int_{a}^{b}f=F( b )-F( a )$$
+
 > [!proof]
 > - Let $\mathscr{P}=\left\{ x_{1}, x_{2},...,x_{n} \right\}$ be a partition of $\left[ a,b \right]$
 > - Apply mean value theorem:

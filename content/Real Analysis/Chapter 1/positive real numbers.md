@@ -2,6 +2,7 @@
 ### Positive Real Numbers
 > [!definition]
 > The real numbers contain a [[sets|subset]] $\mathbb{P}$ known as the **positive real numbers.**
+
 > [!corollary]
 > ### Postulates of the positive reals
 > 1. If $a,b\in \mathbb{P}$ then $a+b$ and $a+b\in \mathbb{P}$
@@ -9,6 +10,7 @@
 > 	1. $a\in \mathbb{P}$
 > 	2. $-a\in \mathbb{P}$
 > 	3. $a=0$.
+
 > [!remark]
 > For the rationals $\mathbb{Q}$, the set of **positive rational numbers** is given by $\mathbb{P}\cap \mathbb{Q}=\left\{ \frac{p}{q}: p,q\in \mathbb{Z},q\neq 0, pq\in \mathbb{N} \right\}$
 - 1 and 2 are called **order properties**.

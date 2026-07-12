@@ -18,6 +18,7 @@
 > 2. $A\cup ( B\cap C )= ( A\cup B )\cap ( A \cup C )$
 > 3. $C / ( A \cup B )=( C / A )\cap ( C / B )$
 > 4. $C / ( A \cap B )=( C / A )\cup ( C / B )$
+
 > [!proof]
 > ##### Proving 4.
 > - $C / ( A \cap B )\subset( C / A )\cup ( C / B )$
@@ -35,5 +36,6 @@
 ### Power set and Cartesian product
 > [!definition]
 > For a given set $A$, the **power set** $\mathcal{P}( A )$ is the collection of all subsets of $A$.
+
 > [!definition]
 > The **Cartesian product** of two sets $A$ and  $B$ is the set of all $a\in A$, $b\in B$ such that:$$A  \times  B=\left\{  ( a,b ): a\in  A \wedge b\in  B \right\}$$

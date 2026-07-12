@@ -7,6 +7,7 @@
 > - A **$uv-$path** is a $uv-$walk with no repeated vertices.
 > 
 > ![[Pasted image 20250828181445.png]]
+
 > [!example]
 > ![[Pasted image 20250902182228.png]]
 ### Relations

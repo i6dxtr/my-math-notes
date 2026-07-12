@@ -3,6 +3,7 @@
 > [!lemma]
 > ### Lemma 1.2.15
 > Every closed odd walk contains an odd cycle.
+
 > [!proof]
 > Let $W$ be a closed odd walk in $G$. Among all closed odd subwalks of $W$, choose one of minimal length and call it $W'$. We show $W'$ is an odd cycle.
 > 

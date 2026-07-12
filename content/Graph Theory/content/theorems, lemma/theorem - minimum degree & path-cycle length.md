@@ -6,6 +6,7 @@
 > 1. If $\delta(G)\ge k$ then every maximal path of $G$ has length at least $k$ (equivalently, every maximal path has order at least $k+1$).
 > 
 > 2. If $k\ge 2$ and $\delta(G)\ge k$ then $G$ contains a cycle of length at least $k+1$.
+
 > [!proof]
 > (1) Let $P=v_{1}v_{2}\dots v_{t}$ be a maximal path in $G$. Because $P$ is maximal, every neighbour of $v_{1}$ is a vertex of $P$. Since $d(v_{1})\ge k$, the vertex $v_{1}$ has at least $k$ distinct neighbours on $P$. Those neighbours can only occupy positions $v_2,\dots,v_t$, so at least one neighbour must be $v_i$ with $i\ge k+1$, otherwise $v_1$ would have at most $k-1$ neighbours on $P$. Hence $t\ge k+1$ and the length of $P$ is at least $k$.
 > 

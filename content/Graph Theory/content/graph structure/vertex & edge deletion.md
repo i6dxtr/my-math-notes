@@ -4,6 +4,7 @@
 > Let $G = (V, E)$ be a [[graph]]:
 > - For $v \in V$, the graph **$G - v$** is obtained by removing $v$ and all edges incident to $v$. Formally, $G-v = (V\setminus\{v\},\; \{e\in E: v\notin e\})$.
 > - For $e \in E$, the graph **$G - e$** is obtained by removing the edge $e$ but keeping all vertices: $G-e=(V,\;E\setminus\{e\})$.
+
 > [!remark]
 > Deleting vertices or edges is a fundamental operation for defining cut-vertices and cut-edges, and for constructing induced subgraphs.
 ### Relations

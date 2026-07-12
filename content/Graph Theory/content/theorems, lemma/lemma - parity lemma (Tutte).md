@@ -4,6 +4,7 @@
 > $$
 > o\bigl(G-S\bigr)-\lvert S\rvert \equiv n \pmod{2}.
 > $$
+
 > [!proof]
 > Write $V(G)=S\sqcup T$ where $T=V(G)\setminus S$. Each component of $G-S$ has some number of vertices; summing the orders of the components of $G-S$ equals $|T|=n-|S|$. Let the odd components contribute an odd number each and even components contribute even numbers; hence
 > $$

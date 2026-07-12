@@ -3,8 +3,10 @@
 > For every graph $G$ and all $X,Y\subseteq V(G)$, we have
 > $$\lambda(X,Y)=\kappa(X,Y),$$
 > i.e. the maximum number of pairwise vertex-disjoint $X,Y$-paths equals the minimum size of an $X,Y$-barrier.
+
 > [!remark]
 > We always have $\lambda(X,Y)\le\kappa(X,Y)$ by definition; the theorem is the nontrivial reverse inequality $\lambda(X,Y)\ge\kappa(X,Y)$.
+
 > [!proof]
 > The proof proceeds by induction on the number of vertices (and edges) of $G$.
 > 

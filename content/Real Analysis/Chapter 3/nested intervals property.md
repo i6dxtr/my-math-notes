@@ -12,6 +12,7 @@
 > [!corollary]
 > ##### Nested Intervals Property
 > If $\left\{ I_{n} \right\}$ is a sequence of closed and bounded intervals with $I_{2}\subset I_{1}, I_{3}\subset I _{2}, \cdots$, then the following is true: $$\bigcap_{m=1}^{\infty}I_{n}\neq \emptyset.$$
+
 > [!proof]
 > $$I_{n}=\left[ a_{n}, b_{n} \right]$$
 > 	- fg3
@@ -24,6 +25,7 @@
 > 	- So $a\le b_{m}$, 
 > 		- Implying $a\in I_{m}$ for all $m\ge 1$
 > 	- So $a\in \bigcap_{m=1}^{\infty}I_{m}$ **qed**
+
 > [!remark]
 > $$1.)\ I_{n}=\left(  0, \frac{1}{n}  \right]\text{ is not closed.}$$
 > - $I_{n+1}\subset I_{n}$

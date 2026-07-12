@@ -5,11 +5,13 @@
 > $$v_{1}, v_{2}, \dots, v_{k}$$
 > such that each $v_{i}v_{i+1} \in E(G)$ for $i = 1, \dots, k-1.$
 > The path may be denoted $v_{1}v_{2}\dots v_{k}$ and has order $k$ and length $k-1$.
+
 > [!definition]
 > ### Definition: Cycle
 > If $k \ge 3$, a **cycle** of length $k$ is a closed walk
 > $$v_{1}v_{2}\cdots v_{k}v_{1}$$
 > with all $v_{i}$ distinct except $v_{1} = v_{k}$. We may denote the cycle by $C_k$ when its length is $k$.
+
 > [!example]
 > ![[Pasted image 20250827134534.png|400]]
 > ![[Pasted image 20250827134551.png|400]]

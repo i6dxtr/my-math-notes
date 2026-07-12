@@ -4,6 +4,7 @@
 > A (not necessarily simple) graph $G$ has an Eulerian circuit (a closed trail that uses every edge of $G$ exactly once) if and only if
 > 1. $G$ has at most one nontrivial component (i.e., at most one component contains an edge), and  
 > 2. every vertex of $G$ has even degree.
+
 > [!proof]
 > (⇒) If $G$ has an Eulerian circuit then the circuit lies entirely inside a single nontrivial component, so there is at most one nontrivial component. Traversing the Eulerian circuit enters and leaves every vertex the same number of times, so each vertex is incident with an even number of traversed edges; hence every vertex has even degree.
 > 

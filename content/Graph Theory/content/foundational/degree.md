@@ -32,7 +32,7 @@
 > - They also link to order and size of a graph and to extremal properties (see [[order, size]] and [[handshake lemma]]).
 
 > [!remark]
-> When $G$ is finite, degrees are non-negative integers. In multigraphs the degree counts incident edges with multiplicity; in directed graphs one distinguishes in‑degree and out‑degree.
+> When $G$ is finite, degrees are non-negative integers. In multigraphs the degree counts incident edges with multiplicity; in directed graphs one distinguishes in-degree and out-degree.
 ### Examples
 - In a complete graph $K_n$, every vertex has degree $n-1$.
 - In a tree on $n$ vertices the degree sequence sums to $2(n-1)$ by the Handshake Lemma.

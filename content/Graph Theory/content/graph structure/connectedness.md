@@ -1,6 +1,7 @@
 #definition
 > [!definition]
 > A **component** $C$ in a graph $G$ is a maximally connected induced subgraph of $G$; there is no $S \subseteq V(G)$ such that $V(C)$ is a proper subset of $S$ and the subgraph induced by $S$ is connected.
+
 > [!corollary]
 > ### Lemma 0.1.
 > Given a graph $G$, let $\sim$ be a relation on $V(G)$ where $u \sim v$ *if and only if* there is a $u,v$-path in $G$. We have that $\sim$ is an equivalence relation and the equivalence classes are the components of $G$.

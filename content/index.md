@@ -33,5 +33,10 @@ Notes covering foundational analysis concepts including properties of real numbe
 *   **Entry Point:** [[MOC - Real Analysis|Map of Content]]
 *   **Key Topics:** Least Upper Bound Property, Metric Spaces, Convergence, Continuity, Compactness, Riemann Integral.
 
+### [[MOC - Abstract Algebra|Abstract Algebra]]
+Notes following Pinter's *A Book of Abstract Algebra* (MTH 421), covering group theory, quotient structures, and ring theory.
+*   **Entry Point:** [[MOC - Abstract Algebra|Map of Content]]
+*   **Key Topics:** Groups, Subgroups, Permutations, Cosets & Lagrange's Theorem, Homomorphisms, Rings, Ideals, Quotient Rings.
+
 ---
 *Created with [Quartz](https://quartz.jzhao.xyz).*

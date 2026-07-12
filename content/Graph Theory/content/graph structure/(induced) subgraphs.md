@@ -13,6 +13,7 @@
 > - $U = \{ v_2, v_3, v_4 \}$
 > - $G[U] = (\{ v_2, v_3, v_4 \}, \{ v_2 v_3, v_3 v_4 \})$
 > ![[Pasted image 20250827140554.png|400]]
+
 > [!remark]
 > #### Relations
 > - Induced subgraphs are used to form components and to study connectivity; see [[components (graph)]] and [[connectedness]].

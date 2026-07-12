@@ -6,6 +6,7 @@
 > 2. $G$ is connected and has $n-1$ edges.
 > 3. $G$ is acyclic and has $n-1$ edges.
 > 4. For all $u,v\in V(G)$ there is exactly one $u,v$-path in $G$.
+
 > [!proof]
 > We sketch the standard equivalences.
 > 

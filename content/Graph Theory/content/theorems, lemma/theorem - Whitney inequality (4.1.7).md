@@ -4,7 +4,8 @@
 > $$
 > \kappa(G)\le \kappa'(G)\le \delta(G),
 > $$
-> where $\kappa(G)$ is the vertex‑connectivity, $\kappa'(G)$ the edge‑connectivity, and $\delta(G)$ the minimum degree.
+> where $\kappa(G)$ is the vertex-connectivity, $\kappa'(G)$ the edge-connectivity, and $\delta(G)$ the minimum degree.
+
 > [!proof]
 > We prove the two inequalities separately.
 > 
@@ -14,7 +15,7 @@
 > 
 > 2. $\kappa(G)\le \kappa'(G)$.
 > 
-> Let $F$ be a minimum disconnecting set of edges, so $|F|=\kappa'(G)$. By the lemma that every minimal disconnecting set is an edge‑cut, there exists a nonempty proper vertex subset $S$ with $F=[S,V(G)\setminus S]$. For each vertex in $S$ choose one endpoint in $S$ incident with an edge of $F$ and delete that vertex; doing this for every edge in $F$ we delete at most $|F|$ vertices and separate the graph. Hence there exists a separating set of size at most $|F|$, so $\kappa(G)\le |F|=\kappa'(G)$.
+> Let $F$ be a minimum disconnecting set of edges, so $|F|=\kappa'(G)$. By the lemma that every minimal disconnecting set is an edge-cut, there exists a nonempty proper vertex subset $S$ with $F=[S,V(G)\setminus S]$. For each vertex in $S$ choose one endpoint in $S$ incident with an edge of $F$ and delete that vertex; doing this for every edge in $F$ we delete at most $|F|$ vertices and separate the graph. Hence there exists a separating set of size at most $|F|$, so $\kappa(G)\le |F|=\kappa'(G)$.
 > 
 > Combining the two inequalities yields $\kappa(G)\le \kappa'(G)\le \delta(G)$.
 ### Relations

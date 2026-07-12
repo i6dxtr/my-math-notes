@@ -1,6 +1,7 @@
 > [!theorem]
 > ### Theorem (Min-degree implies connectivity vs independence)
 > Let $G$ be a graph on $n\ge 2$ vertices. If $\delta(G)\ge \dfrac{n}{2}$ then $\kappa(G)\ge\alpha(G)$.
+
 > [!proof]
 > If $G$ is complete then $\kappa(G)=n-1\ge 1=\alpha(G)$, so the claim holds. Assume $G$ is not complete.
 > 

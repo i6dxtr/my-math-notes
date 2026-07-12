@@ -14,6 +14,7 @@
 > A subset $\vartheta$ of $X$ is an **open set** if every $x\in \vartheta$ is an [[interior point]] of $\vartheta$.
 > 
 > ![[Pasted image 20250223154214.png]]
+
 > [!example]
 > - Open intervals are open sets of $\mathbb{R}$
 > - For $x\in ( a,b )$:
@@ -22,6 +23,7 @@
 ### Closed sets
 > [!definition]
 > A subset $F\subseteq X$ is called **closed** if $X-F$ is *open*.
+
 > [!example]
 > ##### $F=\left[ a,b \right]\longrightarrow R - \left[ a,b \right]=( -\infty, a )\cup ( b, \infty )$
 > - Fix $x\in \mathbb{R}-\left[ a,b \right]$
@@ -34,6 +36,7 @@
 > 		- Then $N_{\varepsilon}( x )\subset( b, \infty )$
 > 
 > ![[Pasted image 20250223154214.png]]
+
 > [!example]
 > ##### $E=( 1,2 ]$ is *not* open.
 > - $2$ is not an interior point of $E$
@@ -45,6 +48,7 @@
 > Let $( X, d )$ be a [[Metric (space)|metric space]].
 > 1. For any collection $\left(  O_{\alpha}  \right)_{\alpha\in A}$ of *open subsets* of $X$, $$\bigcup_{\alpha\in  A}^{}O_{\alpha}\text{ is open.}$$
 > 2. For a finite collection $O_{1}, O_{2}, ..., O_{n}$ of open subsets of $X$, $$O_{1}\cap O_{2} \cap \cdots \cap O_{n}\text{ is open.}$$
+
 > [!proof]
 > ##### $\bigcup_{\alpha\in A}^{}O_{\alpha}$ is open
 > - Let $x\in \bigcup_{\alpha\in A}^{}O_{\alpha}$
@@ -59,12 +63,15 @@
 > 	- $N_{\varepsilon}( x )\subset N_{\varepsilon_{j}}( x )\subset O_{j}$
 > 	- $\longrightarrow N_{\varepsilon}( x )\subset O_{1} \cap O_{2} \cap \cdots \cap O_{n}$
 > - $X$ is an interior: $O_{1} \cap O_{2} \cap \cdots \cap O_{N}$.
+
 > [!example]
 > - $O_{n}=\left(  -\frac{1}{n}, \frac{1}{n}  \right)$ is open.
 > - $\bigcap_{n=1}^{\infty}O_{n}=\left\{ O \right\}$ is *not* open.
+
 > [!theorem]
 > 1. If $\left\{ C_{\alpha} \right\}_{\alpha\in A}$ is a collection of closed sets, then $\bigcap_{\alpha\in A}^{}C_{\alpha}$ is closed.
 > 2. If $c_{1}, c_{2}, ..., c_{N}$ are closed, then $c_{1}\cup c_{2}\cup \cdots\cup c_{N}$ is closed.
+
 > [!proof]
 > - Let $C=\bigcap_{\alpha\in A}^{}C_{\alpha}$
 > - Then $X-C=\bigcup_{\alpha\in A}^{}( X - C_{\alpha} )$ where $X-C_{\alpha}$ is open
@@ -73,6 +80,7 @@
 ### Ch4 Definition
 > [!definition]
 > Let $E\subseteq \mathbb{R}$. A subset of $E$ is *open in $E$* if $\forall x\in E\ \ \exists\delta>0$ such that: $$N_{\delta}( x )\cap E\subseteq E.$$
+
 > [!example]
 > Let $E=[0,1)$ and $U=[0, \frac{1}{2})$.
 > $U$ is open in $E$.

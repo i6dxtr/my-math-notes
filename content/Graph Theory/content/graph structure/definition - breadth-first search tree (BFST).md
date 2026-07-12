@@ -1,8 +1,9 @@
 #definition 
 > [!definition]
 > ### Definition — Breadth-First Search Tree (BFST)
-> Let $G$ be a connected graph and let $x\in V(G)$. A spanning tree $T$ of $G$ is a Breadth‑First Search Tree (BFST) of $G$ rooted at $x$ if for all $v\in V(G)$,
+> Let $G$ be a connected graph and let $x\in V(G)$. A spanning tree $T$ of $G$ is a Breadth-First Search Tree (BFST) of $G$ rooted at $x$ if for all $v\in V(G)$,
 > $$d_G(x,v)=d_T(x,v).$$
+
 > [!remark]
 > - A BFST is produced by the BFS algorithm starting from $x$.
 > - In a BFST, vertices are discovered in nondecreasing order of their distance from $x$.

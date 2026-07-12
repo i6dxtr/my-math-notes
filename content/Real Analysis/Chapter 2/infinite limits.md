@@ -10,6 +10,7 @@
 ### Infinite limits
 > [!definition]
 > If $\left\{ a_{n} \right\}$ is [[Monotone sequence|monotone increasing]] and not [[bound|bounded above]], then $$\lim_{n \to \infty}a_{n}=\infty.$$
+
 > [!proof]
 > - Let $E=\left\{ a_{n}:n\ge 1 \right\}$
 > - We say $E$ is *not* bounded above.

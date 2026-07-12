@@ -2,6 +2,7 @@
 > [!theorem]
 > ### Theorem — Minimum-degree connectivity bound (Theorem 1.3.15)
 > Let $G$ be a graph on $n$ vertices. If $\delta(G)\ge \frac{n-1}{2}$ then $G$ is connected (in fact $G$ has diameter at most $2$).
+
 > [!proof]
 > Let $u,v\in V(G)$. If $uv\in E(G)$ we are done. Otherwise consider the neighborhoods $N(u)$ and $N(v)$. We have
 > $$

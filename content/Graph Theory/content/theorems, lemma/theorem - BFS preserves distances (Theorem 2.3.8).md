@@ -3,6 +3,7 @@
 > ### Theorem — BFS preserves distances (Theorem 2.3.8)
 > Given a connected graph $G$ and a vertex $x\in V(G)$, Algorithm 2.3.8 (BFS) produces a spanning tree $T$ such that for all $v\in V(G)$,
 > $$d_G(x,v)=d_T(x,v).$$
+
 > [!proof]
 > - The process builds a spanning tree: if BFS terminated before all vertices were explored, $G$ would be disconnected. At each step we add a new vertex $v_{k+1}$ and one new edge $v_iv_{k+1}$, maintaining a tree.
 > - Base case $(d=0)$: If $d_G(x,v)=0$, then $v=x$ so $d_T(x,v)=0$.

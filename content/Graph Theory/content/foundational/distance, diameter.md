@@ -15,6 +15,6 @@
 ### Relations
 - Defined using [[path|paths]] and the lemma [[lemma - walk contains path|lemma - walk contains path]].
 - Useful when comparing a graph with its complement (see [[graph complement|graph complement]]); several exercises relate diameters of $G$ and $\overline{G}$.
-- Diameter and radius connect to algorithmic topics (shortest‑path algorithms) and to structural bounds (e.g., trees, eccentricity center).
+- Diameter and radius connect to algorithmic topics (shortest-path algorithms) and to structural bounds (e.g., trees, eccentricity center).
 - Diameter and distance metrics are preserved/approximated by BFS trees (see [[definition - breadth-first search tree (BFST)|definition - breadth-first search tree (BFST)]], [[theorem - BFS preserves distances (Theorem 2.3.8)|theorem - BFS preserves distances]]).
 - Distance/diameter considerations also interact with connectivity, cycles, and Hamiltonicity remarks in later lectures (see [[connectedness|connectedness]], [[theorem - minimum degree & path-cycle length|theorem - minimum degree & path-cycle length]]).

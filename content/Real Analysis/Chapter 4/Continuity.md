@@ -11,8 +11,10 @@
 > [!definition]
 > Let $f:E\rightarrow\mathbb{R}$ where $E\subseteq \mathbb{R}$. $f$ is said to be **uniformly continuous** if $\forall \varepsilon>0, \exists \delta$ (dependent on $\varepsilon$) such that if $x,y\in E$ and $\lvert x-y \rvert<\delta$, then $\lvert f( x )-f( y ) \rvert<\varepsilon.$ $$\begin{gathered} \forall \varepsilon>0, \exists \delta>0 \\ \text{ such that} \\ x,y\in  E\bigwedge\lvert x-y \rvert <\delta\Longrightarrow \lvert f( x )-f( y ) \rvert <\varepsilon \end{gathered}$$
 > - $\delta$ depends on $\varepsilon$ and $p$
+
 > [!definition]
 > Let $f:E\rightarrow \mathbb{R}.$ $f$ is **right continuous** at $p\in E$ if: $$\begin{gathered} \forall \varepsilon>0, \exists\delta>0\\ \text{ for which} \\ \lvert f( x )-f( p ) \rvert <\varepsilon \end{gathered}$$... for all $x\in E$ where $p<x<p+\delta.$ *Left continuity* is similarly defined.
+
 > [!theorem]
 > Suppose $p\in E$ and $f( p^{+} )$. $f$ is right continuous *if and only if* $f( p^{+} )=f( p ).$
 ---
@@ -20,8 +22,10 @@
 > [!theorem]
 > $f:E\rightarrow \mathbb{R}$ is continuous *if and only if* for any [[open sets|open]] $\vartheta$ subset of $\mathbb{R},$ $f^{-1}( \vartheta )$ is open in $E.$
 > *"There exists an open $U$ such that $f^{-1}( \vartheta )=U\cap E$."*
+
 > [!remark]
 > Every open subset of $\mathbb{R}$ is a countable union of open intervals. $$\vartheta=\bigcup_{n=1}^{\infty}I_{n}$$... implying $f:E\rightarrow\mathbb{R}$ is continuous if and only if for every open interval $I$ in $\mathbb{R}$, $f^{-1}( I )$ is open in $E$.
+
 > [!theorem]
 > Let $f:E\rightarrow \mathbb{R}$ where $E\subseteq \mathbb{R}$. $f$ is continuous if $f$ is continuous at every point of $E$.
 > 
@@ -32,6 +36,7 @@
 > ---
 > 
 > Let $f,g$ be functions where $f:E\rightarrow \mathbb{R}$ and $g:F\rightarrow\mathbb{R}$ and $f( E )\subseteq F.$ Let $p$ be a limit point of $E$. If $f$ is continuous at $p$ and $g$ is continuous at $f( p )$, then $g o f$ is continuous at $p$. 
+
 > [!proof]
 > 1. Let $\varepsilon>0$, since $g$ is continuous at $f( p )$. 
 > 2. Then $\exists \delta>0$ such that $\forall y\in F$ $\lvert y-f( p ) \rvert<\delta$ implies $\lvert g( y )-f( p ) \rvert<\varepsilon$. 
@@ -39,8 +44,10 @@
 > 4. This implies $\lvert f( x )-f( p ) \rvert<\delta$.
 > 5. Fix $x\in E$ with $\lvert x-p \rvert<\delta'$. 
 > 6. Then, since $f( x )\in F$ and $\lvert f( x )-f( p ) \rvert<\delta$, we know $\lvert g( f( x ) )-g( f( p ) ) \rvert<\varepsilon.$
+
 > [!corollary]
 > Let $K$ be a [[compact sets|compact subset]] of $\mathbb{R}$ and $f:K\rightarrow \mathbb{R}$ where $f$ is continuous. Then, there exists $p, q\in K$ such that $f( p )\le f( x )\le f( q ),$ for all $x\in K.$
+
 > [!proof]
 > - Observe that $f( K )$ is compact.
 > - In particular, it is bounded.
@@ -66,6 +73,7 @@
 > 6. In other words, if $x\in E\cap N_{\delta}( p )$ then $f( x )\in N_{\varepsilon}( f( p ) )$. 
 > 7. Meaning,  $$x\in f^{-1}( N_{\varepsilon}( f( p ) ) )\subseteq f^{-1}( V ).$$
 > 8. In other words, $$E\cap N_{\delta}( p )\subseteq f^{-1}( V )\subseteq E.$$
+
 > [!proof]
 > ### Proof: If some open set $V\in \mathbb{R}$ has $f^{-1}( V )$ open in $E$, then $f$ is continuous.
 > 1. We'll show $f$ is continuous.

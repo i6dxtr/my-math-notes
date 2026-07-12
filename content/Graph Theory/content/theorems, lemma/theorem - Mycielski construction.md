@@ -1,6 +1,7 @@
 > [!theorem]
 > ### Theorem (Mycielski 1955)
 > For every integer $k\ge 2$ there exists a graph $G$ with clique number $\omega(G)=2$ and chromatic number $\chi(G)=k$.
+
 > [!proof]
 > We describe the Mycielski construction $M(G)$ which given any graph $G$ produces a graph $M(G)$ with $\chi(M(G))=\chi(G)+1$ and $\omega(M(G))=\omega(G)$. Repeating the construction starting from a single edge (which has $\chi=2$, $\omega=2$) yields graphs with arbitrarily large chromatic number but triangle-free.
 > 

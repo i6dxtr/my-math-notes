@@ -5,6 +5,7 @@
 > o\bigl(G-S\bigr)\le \lvert S\rvert \text{for every } S\subseteq V(G),
 > $$
 > i.e. $G$ satisfies Tutte's condition.
+
 > [!proof]
 > Proof sketch.
 > 

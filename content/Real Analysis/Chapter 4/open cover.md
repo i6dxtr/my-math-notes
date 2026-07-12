@@ -6,6 +6,7 @@
 ---
 > [!definition]
 > Let $E$ be a subset of $\mathbb{R}$. An **open cover** of $E$ is a family of [[open sets|open subsets]] of $\mathbb{R}$. $$\left\{ O_{\alpha} \right\}_{\alpha\in  A}\text{ where } E\subseteq \bigcup _{\alpha\in  A}O_{\alpha}$$
+
 > [!example]
 > $E=( 0,1 )$
 > $O_{1}=\left(  -1,\frac{1}{2}  \right)$

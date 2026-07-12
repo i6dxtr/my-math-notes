@@ -17,6 +17,7 @@
 ### Theorems
 > [!theorem]
 > If $\left\{ a_{n} \right\}$ is monotone and [[bound|bounded]], then it is [[Convergent sequence|convergent]].
+
 > [!proof]
 > - Assume that $\left\{ a_{n} \right\}$ is *monotone increasing* and *bounded*.
 > - The set $E=\left\{ a_{n}: n\in \mathbb{N} \right\}$ is bounded.

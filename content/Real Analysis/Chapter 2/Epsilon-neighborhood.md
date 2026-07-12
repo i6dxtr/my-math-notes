@@ -6,6 +6,7 @@
 ###  $\varepsilon-$Neighborhood
 > [!definition]
 > Let $( X,d )$ be a [[Metric (space)|metric space]], $a\in X$, and $\varepsilon>0$. Then we define the **$\varepsilon-$neighborhood** as follows: $$N_{\varepsilon}( a )=\left\{ x\in  X:d( x,a )<\varepsilon \right\}$$
+
 > [!example]
 > ##### $( \mathbb{R}^{2}, d )$ -- pic
 > - $\overline{a}=( a_{1}, a_{2} )$

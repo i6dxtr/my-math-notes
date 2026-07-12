@@ -14,7 +14,7 @@
 > - Alternating and augmenting paths underlie classical matching algorithms (e.g., augmenting-path methods).
 
 ### Source
-- lecture/438Notes_f25.pdf — Definition 3.1.6 ($M$‑alternating/$M$‑augmenting paths)
+- lecture/438Notes_f25.pdf — Definition 3.1.6 ($M$-alternating/$M$-augmenting paths)
 - Notes by date/9-28-25.md
 
 ### Relations

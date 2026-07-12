@@ -2,6 +2,7 @@
 > [!theorem]
 > ### Proposition — Decomposition into cycles iff every vertex has even degree (Proposition 1.2.27)
 > Let $G$ be a (not-necessarily-simple) graph. Then $G$ can be decomposed into cycles (that is, its edge set is the disjoint union of cycles) if and only if every vertex of $G$ has even degree.
+
 > [!proof]
 > (⇒) If $G$ decomposes into cycles $\{C_1,\dots,C_t\}$ then every vertex is incident with either $0$ or $2$ edges from each $C_i$, hence has even degree.
 > 

@@ -11,6 +11,7 @@
 > [!theorem]
 > ##### *Bolzano-Weirstrass theorem:*
 > Every [[bound|bounded]] infinite subset of $\mathbb{R}$ has a limit point.
+
 > [!proof]
 > - Let $S$ be a bounded infinite set.
 > 	- Since $S$ is bounded, $S\subset\left[ a, b \right]$ for some $-\infty < a < b < \infty$.
@@ -34,8 +35,10 @@
 > 		- $\longrightarrow I_{n} \cap (S \subseteq ( N_{\varepsilon}( p )\cap S ) )$
 > 		- $N_{\varepsilon}( p )\cap S$ contains (infinitely many) points $S$ different from $p$
 > - Thus, $p$ is a limit point of $s$. **qed**
+
 > [!corollary]
 > Every [[bound|bounded]] [[sequence]] has a [[Convergent sequence|convergent]] [[subsequence]].
+
 > [!proof]
 > - Let $\left\{ p_{n} \right\}$ be a bounded sequence in $\mathbb{R}$
 > - Let $E=\left\{ p_{n}:n\ge 1 \right\}$

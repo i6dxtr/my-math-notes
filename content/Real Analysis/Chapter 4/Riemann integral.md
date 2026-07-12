@@ -13,13 +13,17 @@
 #### Criterion for Integrality
 > [!theorem]
 > A function $f$ is **integrable** ($f\in R[a,b]$) *if and only if* $\forall\varepsilon>0$ there exists a [[partition]] $\mathscr{P}$ such that $$\mathscr{U}( \mathscr{P}, f )-\mathscr{L}( \mathscr{P}, f )<\varepsilon.$$
+
 > [!proof]
 > $( \Longrightarrow )$
 > - Assume that $f$ is integrable.
 > - For $\varepsilon>0,$ there exists a partition $\mathscr{P}_{1}$ such that $$\mathscr{U}( \mathscr{P}, f )\le \int_{a}^{b}f+\frac{\varepsilon}{2}$$
 > - Moreover, $\exists \mathscr{P}_{2}$ such that $$\int_{a}^{b}f-\frac{\varepsilon}{2}\le \mathscr{L}( \mathscr{P}_{2}, f )$$
 > - Let $\mathscr{P}=\mathscr{P}_{1}\cup \mathscr{P}_{2}$
-> - So $$\begin{align} \mathscr{U}( \mathscr{P}, f )&\le \mathscr{U}( \mathscr{P}_{1}, f ) \\ &\le \int_{a}^{b} f+\frac{\varepsilon}{2}\\ &\le \mathscr{L}( \mathscr{P}_{2}, f )+ \frac{\varepsilon}{2}+ \frac{\varepsilon}{2} \\&\le \mathscr{P}( \mathscr{P}, f )+\varepsilon. \end{align}$$
+> - So
+> 	$$
+> 	\begin{align} \mathscr{U}( \mathscr{P}, f )&\le \mathscr{U}( \mathscr{P}_{1}, f ) \\ &\le \int_{a}^{b} f+\frac{\varepsilon}{2}\\ &\le \mathscr{L}( \mathscr{P}_{2}, f )+ \frac{\varepsilon}{2}+ \frac{\varepsilon}{2} \\&\le \mathscr{P}( \mathscr{P}, f )+\varepsilon. \end{align}
+> 	$$
 > $( \Longleftarrow )$
 > - Assume that $\varepsilon>0.$
 > - Then $\mathscr{U}( \mathscr{P}_{3}, f )\le \mathscr{L}( \mathscr{P}_{\varepsilon}, f )+\varepsilon.$
@@ -29,10 +33,12 @@
 > - Implying $\overline{\int_{a}^{b}}f\le \underline{\int_{a}^{b}}f+\varepsilon$
 > - Since $\varepsilon$ is arbitrary, $\overline{\int_{a}^{b}}f \le \underline{\int_{a}^{b}}f$
 > - Thus, $\overline{\int_{a}^{b}}f=\underline{\int_{a}^{b}}f.$ **qed**
+
 > [!theorem]
 > Let $f:\left[ a,b \right]\rightarrow \mathbb{R}$ be a bounded function.
 > 1. If $f$ is [[Continuity|continuous]], then $f\in R\left[ a,b \right].$
 > 2. If $f$ is [[Monotone function|monotone]], then $f\in R\left[ a,b \right].$
+
 > [!proof]
 > ##### of 1.
 > - Since $\left[ a,b \right]$ is [[compact sets|compact]], $f$ is uniformly continuous.
@@ -44,17 +50,28 @@
 > 	- we know $c_{i}, d_{i}\in \left[ x_{i-1}, x_{i} \right]$
 > - Since $\Delta x_{i}<\delta,$ $\lvert c_{i}-d_{i} \rvert<\delta.$
 > - Therefore $M_{i}-m_{i}<\varepsilon.$
-> - Observe the upper sum: $$\begin{align} \mathscr{U}( \mathscr{P}, f )-\mathscr{L}( \mathscr{P}, f )&=\sum_{i=1}^{n}( M_{i}-m_{i} )\Delta x_{i}& \\ &<\sum_{i=1}^{n}\varepsilon\Delta x_{i}... &=\varepsilon( b-a ) \\ \mathscr{U}( \mathscr{P}, f )-\mathscr{L}( \mathscr{P},f ) &<\varepsilon( b-1 )... &=\varepsilon \end{align}$$
+> - Observe the upper sum:
+> 	$$
+> 	\begin{align} \mathscr{U}( \mathscr{P}, f )-\mathscr{L}( \mathscr{P}, f )&=\sum_{i=1}^{n}( M_{i}-m_{i} )\Delta x_{i}& \\ &<\sum_{i=1}^{n}\varepsilon\Delta x_{i}... &=\varepsilon( b-a ) \\ \mathscr{U}( \mathscr{P}, f )-\mathscr{L}( \mathscr{P},f ) &<\varepsilon( b-1 )... &=\varepsilon \end{align}
+> 	$$
 > - implying $f\in R\left[ a,b \right]$
 > 
 > ##### of 2.
 > - Assume $f$ is monotone increasing
 > - Suppose $\varepsilon>0,$ then $\mathscr{P}=\left\{ x_{0}, x_{1},...,x_{n} \right\}$
-> - Limits: $$\begin{align} \mathscr{U}( \mathscr{P}, f )&= \sum_{i-1}^{n}f( x_{i} )\Delta x_{i} \\ \mathscr{L}( \mathscr{P}, f )&= \sum_{i-1}^{n}f( x_{i-1} )\Delta x_{i} \\ \mathscr{U}( \mathscr{P}, f )-\mathscr{L}( \mathscr{P},f )&= \sum_{i=1}^{n}( f(  x_{i}) )-f( x_{i-1} ) )\Delta x_{i} \end{align}$$
-> - Choose $\mathscr{P}$ such that $\Delta x_{i}=\frac{b-a}{n}$: $$\begin{align} \mathscr{U}( \mathscr{P}, f )-\mathscr{L}( \mathscr{P},f )&=\frac{b-a}{n}\sum_{i=1}^{n}f( x_{i} )-f( x_{i-1} ) \\ &=  \frac{b-a}{n}( f( b )-f( a ) ). \end{align}$$
+> - Limits:
+> 	$$
+> 	\begin{align} \mathscr{U}( \mathscr{P}, f )&= \sum_{i-1}^{n}f( x_{i} )\Delta x_{i} \\ \mathscr{L}( \mathscr{P}, f )&= \sum_{i-1}^{n}f( x_{i-1} )\Delta x_{i} \\ \mathscr{U}( \mathscr{P}, f )-\mathscr{L}( \mathscr{P},f )&= \sum_{i=1}^{n}( f(  x_{i}) )-f( x_{i-1} ) )\Delta x_{i} \end{align}
+> 	$$
+> - Choose $\mathscr{P}$ such that $\Delta x_{i}=\frac{b-a}{n}$:
+> 	$$
+> 	\begin{align} \mathscr{U}( \mathscr{P}, f )-\mathscr{L}( \mathscr{P},f )&=\frac{b-a}{n}\sum_{i=1}^{n}f( x_{i} )-f( x_{i-1} ) \\ &=  \frac{b-a}{n}( f( b )-f( a ) ). \end{align}
+> 	$$
 > - Choose $n$ such that $\frac{b-a}{n}( f( b )-f( a ))<\varepsilon.$
+
 > [!theorem]
 > Suppose $f:\left[ a,b \right]$ is integrable, and $\text{range}f \subset \left[ c,d \right].$ If $\varphi$ is continuous at $\left[  c,d \right]$, then $\varphi o f\in R( \left[ a,b \right] ).$
+
 > [!proof]
 > - Let $\varepsilon>0.$
 > - $\varphi$ is uniformly continuous on $\left[ c,d \right]$
@@ -72,8 +89,15 @@
 > - Also, $B=\left\{ i:M_{i}-m_{i}\ge \delta \right\}.$
 > - For any $i\in A$, $\forall t, s\in \left[ x_{i-1}, x_{i} \right], \lvert f( t )-f( s ) \rvert<\delta$
 > - So $\lvert \varphi( f( t ) )-\varphi ( f( s ) ) \rvert<\varepsilon$
-> - So $$\begin{align} M_{i}^{*}-m_{i}^{*}&\le \text{sup}\left\{ \lvert \varphi o f( t )-\varphi o f( s ) \rvert : s,t \in \left[ x_{i-1}, x_{i} \right] \right\}\\&<\varepsilon. \end{align}$$
-> - So $$\begin{align} \mathscr{U}( \mathscr{P}, \varphi o f )-\mathscr{L}( \mathscr{P}, \varphi o f )&=\sum_{i\in  A}^{}( M_{i}^{*}-m_{i}^{*} )\Delta x_{i}+\sum_{i\in  B}^{}( M_{i}^{*}-m_{i}^{*} )\Delta x_{i} \\ &\le \varepsilon'( b-a ) + \left[ M_{i}^{*}\le k ; m_{i}^{*}\le k \right] \end{align}$$... where $k$ is the maximum of $\lvert \varphi \rvert$ in $\left[ c, d \right]$
+> - So
+> 	$$
+> 	\begin{align} M_{i}^{*}-m_{i}^{*}&\le \text{sup}\left\{ \lvert \varphi o f( t )-\varphi o f( s ) \rvert : s,t \in \left[ x_{i-1}, x_{i} \right] \right\}\\&<\varepsilon. \end{align}
+> 	$$
+> - So
+> 	$$
+> 	\begin{align} \mathscr{U}( \mathscr{P}, \varphi o f )-\mathscr{L}( \mathscr{P}, \varphi o f )&=\sum_{i\in  A}^{}( M_{i}^{*}-m_{i}^{*} )\Delta x_{i}+\sum_{i\in  B}^{}( M_{i}^{*}-m_{i}^{*} )\Delta x_{i} \\ &\le \varepsilon'( b-a ) + \left[ M_{i}^{*}\le k ; m_{i}^{*}\le k \right] \end{align}
+> 	$$
+> 	... where $k$ is the maximum of $\lvert \varphi \rvert$ in $\left[ c, d \right]$
 > - Note that for $i\in B$, $M_{i}-m_{i}\ge \delta\longrightarrow \frac{M_{i}-m_{i}}{\delta}\ge 1$
 > 	- $\le \varepsilon'( b-a )+\frac{2k}{\delta}\sum_{i\in B}^{}( M_{i}-m_{i} )\Delta x_{i}$
 > 	- $\le\varepsilon'( b-a )+\frac{2k}{\delta}\sum_{i=1}^{m}( M_{i}-m_{i} )\Delta$
@@ -81,11 +105,13 @@
 > 	- $\le \varepsilon'( b-a )+2k\delta$
 > 	- $\le \varepsilon'(  b-a )+2k\varepsilon'$
 > 	- $= \varepsilon.$
+
 > [!corollary]
 > The following hold for some integrable functions $f, g$
 > 1. $f+g\in R[a,b]$ with $\int_{a}^{b} f+g=\int_{a}^{b}f+\int_{a}^{b}g$
 > 2. $cf\in R[a,b], c\int_{a}^{b}f=\int_{a}^{b}cf$
 > 3. $fg\in R\left[ a,b \right]$
+
 > [!proof]
 > ##### of 1.
 > $\mathscr{P}$ is a partition:
@@ -121,8 +147,10 @@
 > 	- $f+g\in R\left[ a,b \right]\longrightarrow ( f+g )^{2}\in R\left[ a, b \right]$
 > 	- $f-g\in R\left[ a, b \right]\longrightarrow ( f-g )^{2}\in R\left[ a, b \right]$
 > - so $( f+g )^{2}-( f-g )^{2}=4fg\in R\left[ a,b \right]$
+
 > [!theorem]
 > Let $a<c<b.$ Assume $f\in R\left[ a, c \right]$ and $f\in R\left[ c,b \right].$ If $f$ is integrable on $\left[ a,b \right],$ then the following holds: $$\int_{a}^{b}f=\int_{a}^{c}f+\int_{c}^bf$$
+
 > [!proof]
 > ###### case 1.
 > - Let $\mathscr{P}$ be a partition of $\left[ a,b \right]$ with $c\in \mathscr{P}.$
@@ -170,4 +198,7 @@
 > ---
 > $$\mathscr{U}( \mathscr{P}, f )=\mathscr{L}( \mathscr{P}, f )+ ( x_{k}-x_{k-1} ).$$
 > - Let $\varepsilon>0$
-> - If $\Delta x_{i}<\varepsilon,$ then $$\begin{align} \overline{\int_{0}^{1}}f&\le \mathscr{U}( \mathscr{P}, f )\\ &\le \mathscr{L}( \mathscr{P}, f )+\varepsilon \\ &\le \underline{\int_{0}^{1}}f+\varepsilon \\ \longrightarrow \overline{\int_{0}^{1}}f&\le \underline{\int_{0}^{1}}f+\varepsilon \\ \longrightarrow \overline{\int_{0}^{1}}f &\le \underline{\int_{0}^{1}}f. \end{align}$$
+> - If $\Delta x_{i}<\varepsilon,$ then
+> 	$$
+> 	\begin{align} \overline{\int_{0}^{1}}f&\le \mathscr{U}( \mathscr{P}, f )\\ &\le \mathscr{L}( \mathscr{P}, f )+\varepsilon \\ &\le \underline{\int_{0}^{1}}f+\varepsilon \\ \longrightarrow \overline{\int_{0}^{1}}f&\le \underline{\int_{0}^{1}}f+\varepsilon \\ \longrightarrow \overline{\int_{0}^{1}}f &\le \underline{\int_{0}^{1}}f. \end{align}
+> 	$$

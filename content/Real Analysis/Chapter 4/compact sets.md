@@ -8,6 +8,7 @@
 > A subset $K$ of $\mathbb{R}$ is called **compact** if every open cover of $k$ has a finite subcover.
 > 
 > Let $( O_{\alpha} )_{\alpha\in A}$ be an [[open cover]] of $k$ where $$K\subseteq \bigcup _{\alpha\in  A}O_{\alpha}$$... then $\exists \alpha_{1}, \alpha_{2}, \cdots, \alpha_{N}\in A$ such that: $$K\subseteq O_{\alpha}\cup O_{\alpha_{2}}\cup\cdots\cup O_{\alpha}.$$
+
 > [!example]
 > 1. Finite sets are compact
 > 2. $( 0,1 )$ is *not* compact
@@ -16,8 +17,10 @@
 > 	3. $O_{n_{1}}\cdots O_{n_{N}}$
 > 	4. $n=\text{max}\left\{ n_{1},\cdots,n_{N} \right\}$
 > 	5. $\bigcup_{n=1}^{\infty} O_{N}=\left(  0, 1-\frac{1}{n}  \right)$
+
 > [!theorem]
 > Every compact set is *closed.*
+
 > [!proof]
 > 1. Assume that $k$ is compact.
 > 2. We will show that $\mathbb{R} - K$ is open.

@@ -9,6 +9,7 @@
 > Let $E$ be a nonempty subset of $\mathbb{R}$.
 > 1. A point $p\in \mathbb{R}$ is a **limit point** of $E$ if every [[Epsilon-neighborhood|$\varepsilon-$neighborhood]] of $p$ contains a point $q\in E$ where $q\ne p$ such that $$\forall \varepsilon>0,\ ( N_{\varepsilon}( p )-\left\{ p \right\} )\cap E \ne \emptyset.$$
 > 2. A point $p\in E$ is an **isolated point** of $E$ if it is not a limit point.
+
 > [!example]
 > ##### $E=(0, 1].$
 > 1. $p>1$, $p$ is not a limit point
@@ -41,6 +42,7 @@
 > - $\forall\varepsilon>0$, $N_{\varepsilon}\cap E$ is an infinite set.
 > 
 > ##### 2.) If $p$ is a limit point of a set $E$, then there exists a sequence $\left\{ P_{n} \right\}$ in $E$ where $P_{n}\ne p$ and $\lim_{n \to \infty}P_{n}=p.$
+
 > [!proof]
 > ##### of 1.)
 > - Assume $\exists \varepsilon>0$ where $N_{\varepsilon}( P )- P\cap E$ is a finite set
@@ -60,6 +62,7 @@
 > 	- $p_{n}\ne p$
 > 	- $\lvert p_{n}-p \rvert<\frac{1}{n}$
 > - $\left\{ P_{n} \right\}$ is a sequence in $E$, and: $$\lim_{n \to \infty}p_{n}-p=0 \longleftrightarrow \lim_{n \to \infty}p_{n}=p.$$
+
 > [!corollary]
 > A finite set has no limit point.
 #### Bolzano-Weirstrass

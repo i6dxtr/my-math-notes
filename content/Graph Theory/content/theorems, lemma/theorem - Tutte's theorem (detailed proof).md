@@ -2,6 +2,7 @@
 > [!theorem]
 > ### Theorem 3.3.3 (Detailed proof) — Tutte's theorem (induction)
 > A graph $G$ has a perfect matching iff $o(G-S)\le |S|$ for every $S\subseteq V(G)$.
+
 > [!proof]
 > This file gives the detailed inductive proof and the auxiliary claims used in the lecture notes (Notes by date/10-20-25.md).
 > 

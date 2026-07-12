@@ -19,7 +19,7 @@
 >   where $\alpha'(G)$ is the size of a maximum matching.
 > - Approximation: taking both endpoints of every edge in a maximal matching yields a vertex cover of size at most $2\alpha'(G)$, so $\beta(G)\le 2\alpha'(G)$.
 > - Bipartite exactness (König–Egerváry): in bipartite graphs $\beta(G)=\alpha'(G)$ (see the theorem file).
-> - Computational note: finding a minimum vertex cover is NP‑complete in general, but polynomial-time solvable in bipartite graphs via matching algorithms (Hall / König).
+> - Computational note: finding a minimum vertex cover is NP-complete in general, but polynomial-time solvable in bipartite graphs via matching algorithms (Hall / König).
 
 ### Examples
 - In the complete graph $K_n$, $\beta(K_n)=n-1$ (every edge touches all but one vertex).

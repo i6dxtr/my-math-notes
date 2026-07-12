@@ -1,6 +1,6 @@
 > [!lemma]
 > ### Lemma — Every minimal disconnecting set is an edge cut
-> Let $G$ be a graph on $n\ge 2$ vertices. Every minimal disconnecting set $F\subseteq E(G)$ is an edge‑cut: there exists a proper nonempty $S\subset V(G)$ such that
+> Let $G$ be a graph on $n\ge 2$ vertices. Every minimal disconnecting set $F\subseteq E(G)$ is an edge-cut: there exists a proper nonempty $S\subset V(G)$ such that
 > $$
 > F=[S,V(G)\setminus S].
 > $$

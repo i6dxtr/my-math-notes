@@ -24,7 +24,7 @@
 ### Basic facts / examples
 - A single vertex is a tree (with $0$ edges); an edge is a tree on $2$ vertices.
 - Every tree with at least $2$ vertices has at least two leaves (see Lemma 2.1.3 in the lecture notes).
-- Removing a leaf from an $n$‑vertex tree produces a tree on $n-1$ vertices.
+- Removing a leaf from an $n$-vertex tree produces a tree on $n-1$ vertices.
 - A spanning tree of a connected graph $G$ is a tree subgraph of $G$ containing all vertices of $G$. Spanning trees are fundamental in algorithms (BFS/DFS, minimum spanning tree problems) and structural proofs.
 
 ### Relations

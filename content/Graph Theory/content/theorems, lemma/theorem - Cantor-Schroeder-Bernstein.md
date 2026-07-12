@@ -2,6 +2,7 @@
 > [!theorem]
 > ### Theorem — Cantor–Schroeder–Bernstein
 > Let $A,B$ be sets. If there exists an injective function $f:A\to B$ and an injective function $g:B\to A$, then there exists a bijection $h:A\to B$.
+
 > [!proof]
 > Interpret $f$ and $g$ as matchings between $A$ and $B$: view the bipartite graph with parts $A$ and $B$, and let $M_A$ be the matching corresponding to $f$ (which saturates $A$) and $M_B$ be the matching corresponding to $g$ (which saturates $B$). Consider the symmetric difference $F=M_A\triangle M_B$. By Lemma 3.1.9 every component of $F$ is either an isolated vertex, a finite even cycle, a one-way infinite path, or a two-way infinite path.
 > 
@@ -9,4 +10,4 @@
 ### Relations
 - Uses structural fact about symmetric differences of matchings: [[lemma - symmetric difference of matchings (Lemma 3.1.9)|Lemma 3.1.9]].
 - Argument interprets injections as matchings; see [[matching|matching]].
-- Conceptually related to augmenting‑path techniques and matching theory.
+- Conceptually related to augmenting-path techniques and matching theory.

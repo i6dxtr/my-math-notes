@@ -5,6 +5,7 @@
 > $$\alpha'(G) + \beta'(G) = n,$$
 > where $\alpha'(G)$ is the size of a maximum matching and $\beta'(G)$ is the size of a minimum edge cover.
 > ![[Pasted image 20251015141231.png|350]]
+
 > [!proof]
 > We prove equality by showing both inequalities.
 > 

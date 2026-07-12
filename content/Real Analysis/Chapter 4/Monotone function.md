@@ -11,9 +11,14 @@
 ---
 
 > [!theorem]
-> If a [[function]] $f:I\rightarrow \mathbb{R}$ is [[monotone increasing]], then $f( p^{+} )$ and $f( p^{-} )$ exist, and the following holds: $$\begin{align} \text{sup}_{x<p}f( x )&=f( p^{-} ) \\ &\le f( p ) \\ &\le f( p^{+} ) &=\text{Inf}_{x>p}f( x ). \end{align}$$
+> If a [[function]] $f:I\rightarrow \mathbb{R}$ is [[monotone increasing]], then $f( p^{+} )$ and $f( p^{-} )$ exist, and the following holds:
+> $$
+> \begin{align} \text{sup}_{x<p}f( x )&=f( p^{-} ) \\ &\le f( p ) \\ &\le f( p^{+} ) &=\text{Inf}_{x>p}f( x ). \end{align}
+> $$
+
 > [!theorem]
 > If a function $f:I\rightarrow \mathbb{R}$ is monotone, then the set of [[Discontinuity|discontinuities]] is *at most [[cardinality|countable]].*
+
 > [!proof]
 > - Assume that $f$ is monotone increasing.
 > - For $p\in E,$ $f( p^{-} )<f( p^{+} ).$
