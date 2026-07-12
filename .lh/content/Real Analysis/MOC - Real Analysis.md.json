@@ -1,0 +1,18 @@
+{
+    "sourceFile": "content/Real Analysis/MOC - Real Analysis.md",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1783889131082,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1783889131082,
+            "name": "Commit-0",
+            "content": "# Real Analysis — Map of Content (MOC)\n\n## 2025-01-27\n- [[sets]] — Sets, subsets, operations\n- [[function]] — Functions, domain, codomain\n\n## 2025-01-29\n- [[(inverse) image]] — Image and inverse image of sets\n- [[Least Upper Bound Property]] — Least Upper Bound Property (supremum)\n\n## 2025-01-31\n- [[bound]] — Upper bounds, lower bounds\n- [[Archimedean property]] — Archimedean property, density of $\\mathbb{Q}$\n\n## 2025-02-03\n- [[cardinality]] — Cardinality, equivalent sets\n- [[enumeration]] — Enumeration (countable sets)\n\n## 2025-02-05\n- [[Index Family of Subsets]] — Indexed families, unions, intersections\n\n## 2025-02-10\n- [[Metric (space)]] — Metric spaces (topology of $\\mathbb{R}$)\n\n## 2025-02-12\n- [[Epsilon-neighborhood]] — $\\varepsilon$-neighborhoods\n- [[open sets]] — Open sets, interior points\n\n## 2025-02-14\n- [[Sequence]] — Sequences in $\\mathbb{R}$\n\n## 2025-02-17\n- [[Monotone sequence]] — Monotone sequences\n\n## 2025-02-19\n- [[infinite limits]] — Infinite limits\n\n## 2025-02-24\n- [[bounded sequence limits]] — Limit Superior / Inferior ($\\varlimsup, \\varliminf$)\n\n## 2025-03-05\n- [[Cauchy sequences]] — Cauchy sequences\n- [[Convergent sequence]] — Convergent sequences vs Cauchy\n\n## 2025-03-07\n- [[contractive sequence]] — Contractive sequences\n- [[series]] — Infinite series\n\n## 2025-03-10\n- [[Function limits]] — Limits of functions\n\n## 2025-03-14\n- [[Continuity]] — Continuous functions\n\n## 2025-03-19\n- [[compact sets]] — Compact sets (Heine-Borel, Bolzano-Weierstrass)\n- [[open cover]] — Open covers\n- [[Bolzano-Weirstrass Theorem]] — Bolzano-Weierstrass Theorem\n\n## 2025-04-07\n- [[Continuity]] — Intermediate Value Theorem (IVT)\n\n## 2025-04-09\n- [[Lipschitz function]] — Lipschitz functions, Uniform continuity\n\n## 2025-04-11\n- [[Discontinuity]] — Discontinuities\n- [[Monotone function]] — Monotone functions\n\n## 2025-04-14\n- [[Riemann integral]] — Riemann integrals\n- [[partition]] — Partitions\n- [[Upper & lower integrals]] — Upper and lower sums/integrals\n\n## 2025-04-16\n- [[Riemann integral]] — Integrability criteria\n\n## 2025-04-18\n- [[fundamental theorem of calculus]] — Fundamental Theorem of Calculus\n\n## 2025-04-21\n- (Sequences and series of functions)\n\n---\n*Created with [Quartz](https://quartz.jzhao.xyz).*\n"
+        }
+    ]
+}

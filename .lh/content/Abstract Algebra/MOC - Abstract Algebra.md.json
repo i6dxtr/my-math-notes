@@ -1,0 +1,18 @@
+{
+    "sourceFile": "content/Abstract Algebra/MOC - Abstract Algebra.md",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1783889127545,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1783889127545,
+            "name": "Commit-0",
+            "content": "#moc\n\n### Map of Content — Abstract Algebra\n\n#### Groups\n- **Chapter 2.** [[Groups]] & [[Binary Operations]] — [[abelian]] groups, [[Identity Element|identity]], [[inverse elements|inverses]], [[general linear group|linear groups]]\n- **Chapter 4.** Basic properties — [[cancellation law]], [[inverse product theorem]], [[direct products]]\n- **Chapter 5.** [[Subgroups]] and [[Cyclic Subgroup|cyclic subgroups]]\n- **Chapters 6–7.** [[Functions]] — [[bijective]] maps, [[composition]], [[dihedral groups]], [[symmetric group]]\n- **Chapter 8.** [[permutations of finite sets|Permutations]] — [[Cycles]], [[disjoint cycles]], [[even & odd permutations]]\n- **Chapter 9.** [[Isomorphism]]\n- **Chapter 10.** [[Order]] of elements, the [[division algorithm]]\n\n#### Quotient structures\n- **Chapter 12.** [[partitions|Partitions]] & equivalence relations\n- **Chapter 13.** [[Cosets]] & [[Lagrange's theorem]]\n- **Chapter 14.** [[Homomorphism]] — [[kernel]], [[conjugate|conjugates]], [[normal subgroup|normal subgroups]]\n- **Chapters 15–16.** [[Quotient Groups]] & the [[Fundamental Homomorphism Theorem]]\n\n#### Rings & fields\n- **Chapter 17.** [[Rings]] — [[ring axioms]], [[integral domain|integral domains]], [[Fields]], [[zero divisors]], [[unity]]\n- **Chapter 18.** [[ideal|Ideals]] — [[principal ideal|principal]], [[(semi)prime ideals|prime]], [[maximal ideal|maximal]]; [[Isomorphisms of Rings]]\n- **Chapter 19.** [[Quotient Rings]] & the [[FHT for rings]]\n- **Chapter 20.** [[characteristic|Characteristic]] of a ring, the [[binomial theorem]]\ns"
+        }
+    ]
+}

@@ -1,7 +1,6 @@
 #moc
 
 ### Map of Content — Abstract Algebra
-Notes follow Pinter's *A Book of Abstract Algebra* (MTH 421), moving from group theory through rings, ideals, and quotient structures.
 
 #### Groups
 - **Chapter 2.** [[Groups]] & [[Binary Operations]] — [[abelian]] groups, [[Identity Element|identity]], [[inverse elements|inverses]], [[general linear group|linear groups]]
@@ -23,7 +22,4 @@ Notes follow Pinter's *A Book of Abstract Algebra* (MTH 421), moving from group 
 - **Chapter 18.** [[ideal|Ideals]] — [[principal ideal|principal]], [[(semi)prime ideals|prime]], [[maximal ideal|maximal]]; [[Isomorphisms of Rings]]
 - **Chapter 19.** [[Quotient Rings]] & the [[FHT for rings]]
 - **Chapter 20.** [[characteristic|Characteristic]] of a ring, the [[binomial theorem]]
-
-#### Course material
-- Daily lecture notes live in `notes by date`
-- Weekly homework in `homeworks`; exam review in `exam prep`
+s

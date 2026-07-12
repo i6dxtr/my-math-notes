@@ -1,9 +1,5 @@
 # Graph Theory — Map of Content (MOC)
 
-This MOC links the concept notes extracted from lecture notes and "Notes by date". It is organized chronologically by lecture date; under each date are the concept files introduced (atomic concept notes). Use this as the entry point for the concept-first vault.
-
----
-
 ## 2025-08-25
 - [[graph]] — Definition: Graph
 - [[degree]] — Degree; min / max degree
@@ -56,9 +52,6 @@ This MOC links the concept notes extracted from lecture notes and "Notes by date
 ## 2025-09-15
 - Maximal vs maximum paths, propositions on intersections of longest paths
 - Related exercises and propositions in [[proposition - maximal paths & cycles]]
-
-## 2025-09-17
-- (Lecture notes continued — exercises on trees, decomposition)
 
 ## 2025-09-19 to 2025-09-24
 - Review, quizzes, and continuation of tree / connectivity exercises
@@ -150,8 +143,3 @@ This MOC links the concept notes extracted from lecture notes and "Notes by date
 - [[example - chromatic bound by edges]] — Bound: $\chi(G)<1+\sqrt{2m}$ (from Notes by date/12-1-25.md)
 - [[corollary - Rédei tournament Hamiltonian path]] — Rédei (1934): every tournament has a Hamiltonian path (Corollary of Gallai–Roy–Vitaver)
 - [[corollary - Erdös-Szekeres subsequence]] — Erdős–Szekeres subsequence theorem (1935) — combinatorial subsequence result (application of Gallai–Roy–Vitaver)
-
----
-Sources / Lecture mapping
-- Primary: lecture/438Notes_f25.pdf (lecture statements & proofs)
-- Supplementary: Notes by date/* (10-17-25.md → 11-3-25.md)

@@ -1,9 +1,5 @@
 # Real Analysis — Map of Content (MOC)
 
-This MOC links the concept notes extracted from lecture notes and "Notes by date". It is organized chronologically by lecture date.
-
----
-
 ## 2025-01-27
 - [[sets]] — Sets, subsets, operations
 - [[function]] — Functions, domain, codomain
