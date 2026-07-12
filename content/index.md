@@ -6,7 +6,7 @@ Assorted notes from various mathematics classes I've taken at Miami University o
 
 ## Note Organization / Structure
 
-This vault is organized as a **concept-first** collection of mathematical notes, specifically focused on the course MTH 432/532 Introduction to Graph Theory.
+These notes are organized in the exact same structure I make for my atomized Obsidian.md notes that I write for university. This structure can be described as follows:
 
 ### Graph View / Relations
 The **[[view]]** serves as a visual map of the knowledge base, where:
@@ -16,12 +16,16 @@ The **[[view]]** serves as a visual map of the knowledge base, where:
 By exploring the graph, you can see how foundational concepts cluster together and support more advanced topics.
 
 ### Hierarchy / Navigation
-While the graph provides a non-linear view, the notes are also structured hierarchically to aid comprehension:
-*   **Map of Content (MOC):** The [[MOC - Graph Theory]] is the starting point for the notes. It organizes atomic notes chronologically, following the material per-day as it's covered during lecture.
+*   **Map of Content (MOC):** The [[MOC - Graph Theory]] is the starting point for my notes. 
 *   **Atomic Notes:** Each file focuses on a single concept or theorem (e.g., [[handshake lemma]]), keeping the information modular / easier to link.
-*   **Categories:** Notes are grouped into folders like `foundational`, `theorems, lemma`, and `graph structure` to keep the file system neat, though the wiki-links allow for fluid navigation across notes and concepts
+*   **Categories:** Notes are grouped into folders like `foundational`, `theorems, lemma`, and `graph structure` to keep the file system neat, and the wiki-links allow for fluid navigation across notes and concepts
 
 ## Available Classes
+
+### [[MOC - Abstract Algebra|Abstract Algebra]]
+Notes following Pinter's *A Book of Abstract Algebra* (MTH 421), covering group theory, quotient structures, and ring theory.
+*   **Entry Point:** [[MOC - Abstract Algebra|Map of Content]]
+*   **Key Topics:** Groups, Subgroups, Permutations, Cosets & Lagrange's Theorem, Homomorphisms, Rings, Ideals, Quotient Rings.
 
 ### [[MOC - Graph Theory|Graph Theory]]
 Introductory undergraduate course for Graph Theory. Notes cover various concepts regarding graph structure, connectivity, matchings, coloring, among others.
@@ -33,10 +37,7 @@ Notes covering foundational analysis concepts including properties of real numbe
 *   **Entry Point:** [[MOC - Real Analysis|Map of Content]]
 *   **Key Topics:** Least Upper Bound Property, Metric Spaces, Convergence, Continuity, Compactness, Riemann Integral.
 
-### [[MOC - Abstract Algebra|Abstract Algebra]]
-Notes following Pinter's *A Book of Abstract Algebra* (MTH 421), covering group theory, quotient structures, and ring theory.
-*   **Entry Point:** [[MOC - Abstract Algebra|Map of Content]]
-*   **Key Topics:** Groups, Subgroups, Permutations, Cosets & Lagrange's Theorem, Homomorphisms, Rings, Ideals, Quotient Rings.
+
 
 ---
 *Created with [Quartz](https://quartz.jzhao.xyz).*
